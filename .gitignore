@@ -1,0 +1,49 @@
+# ===============================
+# UiPath
+# ===============================
+
+# Pastas geradas automaticamente
+.project/
+.settings/
+.local/
+.metadata/
+.screenshots/
+.output/
+.tmh/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.log
+
+# Arquivos de execução
+*.xaml.user
+*.xaml.user.*
+
+# Configurações locais do Studio
+project.json.user
+UiPath.settings
+
+# Cache e restore
+.nuget/
+packages/
+
+# ===============================
+# Visual Studio / VS Code
+# ===============================
+
+.vs/
+.vscode/
+
+# ===============================
+# Windows
+# ===============================
+
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Logs
+# ===============================
+
+*.log
