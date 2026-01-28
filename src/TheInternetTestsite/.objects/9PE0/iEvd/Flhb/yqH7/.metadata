@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Senha",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "yqH7D3kK90Ol1vLBAX5daQ",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/yqH7D3kK90Ol1vLBAX5daQ",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/FlhbQhj_F0SwO3LOZkzNAA",
+  "Created": "2026-01-28T19:15:54.6157008Z",
+  "Updated": "2026-01-28T19:15:54.6157008Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

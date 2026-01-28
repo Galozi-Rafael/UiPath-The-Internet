@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Fazer login",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "SRbj4--wzEGF5C0Px9KJ2g",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/SRbj4--wzEGF5C0Px9KJ2g",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/FlhbQhj_F0SwO3LOZkzNAA",
+  "Created": "2026-01-28T19:17:44.6458785Z",
+  "Updated": "2026-01-28T19:17:44.6458785Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
