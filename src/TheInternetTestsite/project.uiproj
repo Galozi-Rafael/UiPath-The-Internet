@@ -1,0 +1,6 @@
+{
+  "Name": "TheInternetTestsite",
+  "ProjectType": "Process",
+  "Description": "Processo que visa automatizar as diversas partes do site-test: https://the-internet.herokuapp.com/",
+  "MainFile": "Main.xaml"
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "AB Test Control",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "oZuBaa--R0eoCUS3pC8bmw",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/oZuBaa--R0eoCUS3pC8bmw",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/4Z2ZedV0KUaoDn5mFdbhwg",
+  "Created": "2026-01-28T18:36:10.7858252Z",
+  "Updated": "2026-01-28T18:36:10.7858252Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
