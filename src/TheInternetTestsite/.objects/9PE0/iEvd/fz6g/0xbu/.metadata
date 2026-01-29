@@ -1,0 +1,13 @@
+﻿{
+  "Name": "DIV hot-spot",
+  "Type": "Element",
+  "Id": "0xbuCW_RmkamzAvzTlAzbg",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/0xbuCW_RmkamzAvzTlAzbg",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/fz6gxv13YU2jCYUSxpIPpw",
+  "Created": "2026-01-29T16:19:32.9419116Z",
+  "Updated": "2026-01-29T16:19:32.9419116Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="I7EUjMZP7ESRSotESBsZJg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/context_menu" CVScreenId="0f26426b-bb4f-4f0f-965a-fd9e64554e87" CvTextArea="168, 223, 180, 24" CvTextArgument="Context Menu" CvType="Text" DesignTimeRectangle="169, 218, 970, 38" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="7e3325f4-9f7a-4807-8ae3-bb9e77282ef2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="891c10c6aa169f859ee18c31fb5ea004.png" xmlns="">05_ZXx4XSfkiMvBvN_vTQsw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

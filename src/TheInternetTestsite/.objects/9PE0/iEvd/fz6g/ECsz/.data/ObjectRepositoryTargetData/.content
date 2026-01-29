@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="z1QG6Yv9wUu-hyakt45_cQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/context_menu" CVScreenId="8836e904-976b-471a-bd01-74172fd65c1a" CvElementArea="1101, 173, 77, 50" CvTextArea="1129, 192, 21, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1108, 179, 64, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" Guid="c460d36c-1951-4344-9992-77743e441b6f" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8836e904-976b-471a-bd01-74172fd65c1a" CvElementArea="1101, 173, 77, 50" CvTextArea="1129, 192, 21, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="744, 179, 448, 58" FuzzySelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' role='pane' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='OK' /&gt;" Guid="d8641d0a-9d76-4b07-aa62-651116eb772d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b0f0fbc051e9123917bfe6bbff965f2c.png" xmlns="">0Iu20N9fDD0-ZFS_w0PGFUg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

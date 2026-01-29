@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="F1F98HTnbUSjH7L9HXmRyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/context_menu" DesignTimeRectangle="169, 361, 250, 150" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='hot-spot' tag='DIV' /&gt;" Guid="8f708c6b-1314-4b72-b005-9526daae4319" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="973f5723aba38fdd5463c960a47ceb1c.png" xmlns="">0MEkDmd8FkE-2g8L2PU29Lg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
