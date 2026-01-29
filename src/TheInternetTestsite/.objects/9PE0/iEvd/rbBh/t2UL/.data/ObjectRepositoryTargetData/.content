@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="whTuzSe7mEq0TKNgZDSFNQ" Reference="hgpIwYCmKUK6UuG-Vvg7vw/t2ULd6DZ70S5d3MHlOMf1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/drag_and_drop" CVScreenId="0310c800-736c-4cf1-9303-07d18fb2beda" DesignTimeRectangle="169, 270, 150, 150" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='DIV' visibleinnertext='A' /&gt;" Guid="e2ef8153-2141-4e25-b60b-c7ec9973eecb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="0e5fe83c4ddc0978c3e8fae578b61257.png" xmlns="">03c3ZmWdahE-ir6ex9UBLuw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

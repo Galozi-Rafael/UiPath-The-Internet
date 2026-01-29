@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="O6XdkIuDp0etDUPzV519bw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/drag_and_drop" CVScreenId="63f8b8d1-4ced-4bf2-9e44-21e32a650cd7" CvTextArea="550, 271, 15, 15" CvTextArgument="A" CvType="Text" DesignTimeRectangle="483, 270, 150, 150" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='column-a' tag='DIV' /&gt;" Guid="a8f10ec5-4bbc-48be-9795-33a5e97204a7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="574d15bfefd6daea1775534f64837595.png" xmlns="">02bLYbvpt3kWdD_CuCoERIA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">DragAndDrop</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
