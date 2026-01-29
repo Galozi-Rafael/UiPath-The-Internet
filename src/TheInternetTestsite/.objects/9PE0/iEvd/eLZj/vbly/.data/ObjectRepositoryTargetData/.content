@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TPHhRv5BrUO_vRN31oR_gQ" Reference="hgpIwYCmKUK6UuG-Vvg7vw/vbly13-kokOCYZDfnBiBWA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/challenging_dom" CVScreenId="6b90e34f-e7ad-4b6a-86f5-d8fc395cb7f7" CvTextArea="738, 820, 405, 52" CvTextArgument="Answer: 45430" CvType="Text" DesignTimeRectangle="652, 755, 601, 202" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='canvas' tag='CANVAS' /&gt;" Guid="8f2dbfe5-780d-46f1-ba75-34b723656b76" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV, SemanticSelector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="f37a7ab33432ecda6f0c624be5ca454c.png" xmlns="">0iZBKOvyApUi3j77mXHVuCg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

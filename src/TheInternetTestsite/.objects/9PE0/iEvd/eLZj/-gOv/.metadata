@@ -1,0 +1,13 @@
+﻿{
+  "Name": "CANVAS canvas(2)",
+  "Type": "Element",
+  "Id": "-gOvh5x_bkaYt6guUMWsmQ",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/-gOvh5x_bkaYt6guUMWsmQ",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/eLZjCq5BhUyUvyPDhrtrAw",
+  "Created": "2026-01-29T13:17:04.9825828Z",
+  "Updated": "2026-01-29T13:17:04.9825828Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

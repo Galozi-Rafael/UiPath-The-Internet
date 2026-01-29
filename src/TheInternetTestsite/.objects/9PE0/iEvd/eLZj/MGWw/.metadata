@@ -1,0 +1,14 @@
+﻿{
+  "Name": "bar",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "MGWwIV4VxEGo0ZOe0xjvjA",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/MGWwIV4VxEGo0ZOe0xjvjA",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/eLZjCq5BhUyUvyPDhrtrAw",
+  "Created": "2026-01-29T11:35:42.3626894Z",
+  "Updated": "2026-01-29T11:35:42.3626894Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

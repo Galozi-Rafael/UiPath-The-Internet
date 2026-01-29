@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="d4C43O1c6kqGOxpB1zXKnQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/challenging_dom" CVScreenId="36dcbf3d-abb7-40b2-9acb-b775fd859894" CvElementArea="489, 515, 91, 48" CvTextArea="514, 530, 42, 15" CvTextArgument="Obaz" CvType="Button" DesignTimeRectangle="491, 516, 88, 45" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='button success' /&gt;" Guid="83d74334-4929-4017-bc24-f5c1d52946d8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="04408d5679e26f287c80f9e644a79a40.png" xmlns="">0SsK8OuzKoE2rnEZLU1Ik8w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
