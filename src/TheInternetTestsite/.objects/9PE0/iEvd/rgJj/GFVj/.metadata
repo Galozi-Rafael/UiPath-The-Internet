@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Gallery",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "GFVjfnK0-ESha6uZnTQSAA",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/GFVjfnK0-ESha6uZnTQSAA",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/rgJjH4WQ1UqwL5IrRJxmPg",
+  "Created": "2026-01-29T16:28:40.7713696Z",
+  "Updated": "2026-01-29T16:28:40.7713696Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

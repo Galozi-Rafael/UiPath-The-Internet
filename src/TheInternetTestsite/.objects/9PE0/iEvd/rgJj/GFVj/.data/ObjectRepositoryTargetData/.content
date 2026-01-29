@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gpQKjQWF1ES-aaBemGasBA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/disappearing_elements" CVScreenId="4c08e257-52ee-48fd-90bf-6b2a19019afb" CvElementArea="900, 335, 100, 53" CvTextArea="921, 353, 59, 20" CvTextArgument="Gallery" CvType="Button" DesignTimeRectangle="901, 336, 99, 52" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Gallery' parentid='content' tag='A' /&gt;" Guid="832213f1-e3f2-45e8-a5b4-682638798170" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9501c0cacf8c833831005d7460985f8a.png" xmlns="">0kARLia3azkmz3fsYPxVuRA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
