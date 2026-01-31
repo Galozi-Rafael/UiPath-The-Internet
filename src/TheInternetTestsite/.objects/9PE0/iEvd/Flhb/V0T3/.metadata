@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Basic Auth Congratulati…",
+  "Type": "Element",
+  "Id": "V0T3nrnvDU-Wt2CsCIvUaw",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/V0T3nrnvDU-Wt2CsCIvUaw",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/FlhbQhj_F0SwO3LOZkzNAA",
+  "Created": "2026-01-31T23:08:13.4427986Z",
+  "Updated": "2026-01-31T23:08:13.4427986Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

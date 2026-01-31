@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SoFXdLegg0OVTDvBONnGig" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/basic_auth" DesignTimeRectangle="801, 86, 334, 268" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Fazer login' role='dialog' /&gt;&lt;ctrl idx='2' role='pane' /&gt;" Guid="1f24d4f2-9f8d-4420-a2be-2d16620222ed" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com/basic_auth - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7efaf15385c27d48fb91f69c87f2bb26.png" xmlns="">09wDQk9Ap_kqaQwq0NhnkrQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

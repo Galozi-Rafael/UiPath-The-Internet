@@ -91,20 +91,20 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="CheckBoxes" sap:VirtualizedContainerService.HintSize="1287,622.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="CheckBoxes" sap:VirtualizedContainerService.HintSize="1281,969" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="NEssa sequence será feita a lógica para:&#xD;&#xA;1 - observar o atributo de um checkbox&#xD;&#xA;2 - se marcado continuar marcado;&#xD;&#xA;3 - se desmarcado continuar desmarcado." DisplayName="Sequence Checkboxes" sap:VirtualizedContainerService.HintSize="486,923" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap2010:Annotation.AnnotationText="NEssa sequence será feita a lógica para:&#xA;1 - observar o atributo de um checkbox&#xA;2 - se marcado continuar marcado;&#xA;3 - se desmarcado continuar desmarcado." DisplayName="Sequence Checkboxes" sap:VirtualizedContainerService.HintSize="486,946" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome The Internet(4)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,786" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="5c8649a9-6023-477c-ae95-b35059cd8468" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Chrome The Internet(4)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,786" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="5c8649a9-6023-477c-ae95-b35059cd8468" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
@@ -125,7 +125,7 @@
                 <uix:NGetAttributeGeneric.Target>
                   <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/checkboxes" CVScreenId="674eec33-3b3e-4de1-9597-06b8ac67d31c" ContentHash="_zrkzrebvEWgAvTbsDLMvA" CvElementArea="481, 269, 16, 16" CvType="CheckBox" DesignTimeRectangle="483, 270, 13, 13" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="40b110e8-f8b4-4e80-86aa-9ae00ac4a310" InformativeScreenshot="50bb437f1f28b69e75c69d015d135f1d.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/6xDweEIkA0qD_67dANw4Bw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CVScreenId="674eec33-3b3e-4de1-9597-06b8ac67d31c" CvTextArea="481, 222, 162, 25" CvTextArgument="Checkboxes" CvType="Text" DesignTimeRectangle="483, 218, 970, 38" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='' aaname='Checkboxes' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Checkboxes' /&gt;" Guid="8246b620-fc56-4f2c-9786-d7bcbeda8b3e" SearchSteps="FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -136,7 +136,7 @@
                 <uix:NGetAttributeGeneric.Target>
                   <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/checkboxes" CVScreenId="674eec33-3b3e-4de1-9597-06b8ac67d31c" ContentHash="5eihVBKs3EW7oEOjww5peQ" CvElementArea="481, 297, 17, 17" CvType="CheckBox" DesignTimeRectangle="483, 299, 13, 13" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' tag='INPUT' /&gt;" Guid="1b1935ba-e775-4541-a53d-35be393d26c2" InformativeScreenshot="9d2ec6f988885a49a3112bfdb0eae562.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/zrSwx0ES_k21tvUzcnU6Jw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target DesignTimeRectangle="483, 270, 970, 58" ElementType="Container" FuzzySelectorArgument="&lt;webctrl id='checkboxes' tag='FORM' type='' class='' aaname='      checkbox 1      checkbox 2   ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='checkbox 1&amp;#xA; checkbox 2' /&gt;" Guid="3c5f9e6a-392b-43fc-aea2-1154f5556c66" SearchSteps="FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
