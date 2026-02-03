@@ -40,7 +40,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] Dynamic Content
 - [x] Dynamic Controls
 - [x] Dynamic Loading
-- [ ] Entry Ad
+- [x] Entry Ad
 - [ ] Exit Intent
 - [ ] File Download
 - [ ] File Upload
