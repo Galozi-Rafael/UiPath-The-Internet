@@ -39,7 +39,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] Dropdown
 - [x] Dynamic Content
 - [x] Dynamic Controls
-- [ ] Dynamic Loading
+- [x] Dynamic Loading
 - [ ] Entry Ad
 - [ ] Exit Intent
 - [ ] File Download
