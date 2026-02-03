@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Remove",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "PDtiFFf5zUqLMHqiPu_7lw",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/PDtiFFf5zUqLMHqiPu_7lw",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/BKU5P8NOB06ruVMTRNDcIw",
+  "Created": "2026-02-03T12:46:43.9112219Z",
+  "Updated": "2026-02-03T12:46:43.9112219Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

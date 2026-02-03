@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fI_nI1-d7UW0yZ-MY3wbQQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/dynamic_controls" CVScreenId="eee6550b-14ed-4cab-843d-b507bb8286e6" CvElementArea="481, 657, 294, 35" CvType="InputBox" DesignTimeRectangle="483, 658, 291, 33" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="91cfe456-c5a9-4a0f-a1af-a7589b30bd9d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="eee6550b-14ed-4cab-843d-b507bb8286e6" CvTextArea="483, 603, 152, 22" CvTextArgument="Enable/disable" CvType="Text" DesignTimeRectangle="483, 599, 970, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='subheader' type='' tag='H4' aaname='Enable/disable' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Enable/disable' /&gt;" Guid="38f15e2b-cce5-4ac8-b305-174fe526fc1a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7c8607eb43b5ca5b02c31054b607c094.png" xmlns="">0KBisKPUxDUqXuyeIqU-pNQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

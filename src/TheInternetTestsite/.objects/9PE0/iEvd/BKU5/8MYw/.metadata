@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Enable",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "8MYw9L1-S0CWfO7gXGjUIg",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/8MYw9L1-S0CWfO7gXGjUIg",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/BKU5P8NOB06ruVMTRNDcIw",
+  "Created": "2026-02-03T12:51:02.4315137Z",
+  "Updated": "2026-02-03T12:51:02.4315137Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "It's gone!",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ilJF6P4EZEmTOJypc8XdLQ",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/ilJF6P4EZEmTOJypc8XdLQ",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/BKU5P8NOB06ruVMTRNDcIw",
+  "Created": "2026-02-03T12:48:35.6793243Z",
+  "Updated": "2026-02-03T12:48:35.6793243Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

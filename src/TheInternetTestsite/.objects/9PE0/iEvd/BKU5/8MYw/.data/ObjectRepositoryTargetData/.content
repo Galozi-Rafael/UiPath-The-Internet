@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wZd3te89-kGGCIq6ELT55w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/dynamic_controls" CVScreenId="f88672af-2779-4f86-a922-755ef9904acf" CvElementArea="481, 657, 106, 48" CvTextArea="506, 673, 55, 15" CvTextArgument="Enable" CvType="Button" DesignTimeRectangle="483, 659, 107, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='input-example' tag='BUTTON' /&gt;" Guid="cce37b20-7106-4b5b-a8d4-b2762ec0605c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f88672af-2779-4f86-a922-755ef9904acf" CvElementArea="481, 612, 294, 34" CvType="InputBox" DesignTimeRectangle="483, 613, 291, 32" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" Guid="ec84eab8-7e0c-4230-8588-419795160738" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="52c1643dd27aa2f96d66ced7d614c33f.png" xmlns="">0VmuKzltOdUWF9OPRY2nTbQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

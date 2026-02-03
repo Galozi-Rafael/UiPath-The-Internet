@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fdVXnZGcOEakrlB0vnazQQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="f38c3874-4468-4d92-b7db-efa57fcb12a1" CvElementArea="1895, 18, 20, 20" CvType="CloseButton" DesignTimeRectangle="1895, 18, 20, 20" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="32f53c19-6970-40fc-80d8-7c9858a2bd2f" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f38c3874-4468-4d92-b7db-efa57fcb12a1" CvElementArea="1849, 17, 21, 21" CvType="MaximizeButton" DesignTimeRectangle="1849, 18, 20, 20" ElementType="Button" Guid="8917d248-5bce-4ff1-baeb-b9d5b4e524a6" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e85d209d34a26ceb6db209a6cb1a91b3.png" xmlns="">0f72ZzakF4UuzjyiY4NXTMw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

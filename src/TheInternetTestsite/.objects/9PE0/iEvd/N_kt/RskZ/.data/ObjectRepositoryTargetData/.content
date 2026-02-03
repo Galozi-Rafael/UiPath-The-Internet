@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="w4qm3gPCWkqsjtNNXqta1g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="f38c3874-4468-4d92-b7db-efa57fcb12a1" CvTextArea="667, 507, 92, 12" CvTextArgument="HTTP ERROR 400" CvType="Text" DesignTimeRectangle="667, 507, 92, 12" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="0251cdf0-692e-4365-afb8-3804967f6949" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="48808e7447dce87b37f29cca5f31ef20.png" xmlns="">039VudTIkVUWs37Odn6JKjg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

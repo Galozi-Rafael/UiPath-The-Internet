@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5V-mD6nsSkqfrxArsaypCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/dynamic_controls" CVScreenId="cc52be0c-2018-4be0-90e1-7738d8c84277" CvTextArea="482, 436, 64, 15" CvTextArgument="It's back!" CvType="Text" DesignTimeRectangle="483, 432, 970, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='message' tag='P' /&gt;" Guid="5cc2c6fc-c1f2-4e2c-bddf-df48a3f0f718" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ac7996279d0801b2c26c5a94cccf346a.png" xmlns="">0rKKFhXCOHUemLQQzsZwaKQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

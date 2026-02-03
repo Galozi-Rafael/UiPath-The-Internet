@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZyC4NGJ71EOGq5tqKo4xkw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/dynamic_controls" CVScreenId="40394611-1c8c-49d6-887d-b77abda68a41" CvElementArea="481, 394, 115, 48" CvTextArea="507, 410, 64, 15" CvTextArgument="Remove" CvType="Button" DesignTimeRectangle="483, 396, 112, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="9512816b-160f-4e33-97cd-2ec491fb17c4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a4189126f16a24256936bbc1c9bbe268.png" xmlns="">0rNXiAkuQT0O7DXM7Wmw25Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
