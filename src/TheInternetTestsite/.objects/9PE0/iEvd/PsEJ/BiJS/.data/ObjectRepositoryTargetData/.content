@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PeV8FdKkc02XZSx6S9dx6A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/dynamic_loading/2" CVScreenId="a86a0792-9956-4b19-b6cb-b3e86bf57f20" CvTextArea="482, 339, 135, 20" CvTextArgument="Hello World!" CvType="Text" DesignTimeRectangle="483, 334, 970, 32" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='finish' tag='H4' /&gt;" Guid="cd045abf-3424-4e98-a034-fbf722a70031" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7ccdb1a15ee16d03051c036502c473f4.png" xmlns="">0csaYFbu1A0W-7Vzrr3ztkw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

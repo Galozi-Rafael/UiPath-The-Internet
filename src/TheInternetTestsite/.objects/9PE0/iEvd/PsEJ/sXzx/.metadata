@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Example 1 Element on p…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "sXzxJ8FuXEmlWQXklyCt0w",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/sXzxJ8FuXEmlWQXklyCt0w",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/PsEJgtVHtEGOFnzQADFMNg",
+  "Created": "2026-02-03T18:20:29.6883846Z",
+  "Updated": "2026-02-03T18:20:29.6883846Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

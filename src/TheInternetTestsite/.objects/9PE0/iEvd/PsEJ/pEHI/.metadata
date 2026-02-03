@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Hello World!",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "pEHId1b2J0OElWlrCH05Og",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/pEHId1b2J0OElWlrCH05Og",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/PsEJgtVHtEGOFnzQADFMNg",
+  "Created": "2026-02-03T18:21:45.7667136Z",
+  "Updated": "2026-02-03T18:21:45.7667136Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
