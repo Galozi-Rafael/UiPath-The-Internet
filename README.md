@@ -38,7 +38,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] Drag and Drop
 - [x] Dropdown
 - [x] Dynamic Content
-- [ ] Dynamic Controls
+- [x] Dynamic Controls
 - [ ] Dynamic Loading
 - [ ] Entry Ad
 - [ ] Exit Intent
