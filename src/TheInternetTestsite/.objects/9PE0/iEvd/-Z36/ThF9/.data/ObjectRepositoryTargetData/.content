@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nmtgXxUPy0SkQaIAkGHXbw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/floating_menu" CVScreenId="e446d418-5b92-4791-b4b7-0584eb14e53a" CvElementArea="117, 53, 1674, 35" CvType="InputBox" DesignTimeRectangle="165, 59, 1581, 24" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='The Internet - Google Chrome' role='pane' /&gt;&lt;ctrl name='Barra de endereço e de pesquisa' role='editable text' /&gt;" Guid="3e5646c7-d949-4c05-8036-ef6e234546a0" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="336785f6e96dbebf0e5d64a1a8ee26d4.png" xmlns="">0csMzCiElNkajtH7NH0ci6g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="I-4gUJ7m5EWsZlITG1M8Ew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/floating_menu" DesignTimeRectangle="8, 181, 1905, 5259" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BODY' /&gt;" Guid="e1e4ed33-3989-420c-995a-c2d5d5434922" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e4d20537aab95af03269c9d21eefdb67.png" xmlns="">0oNamYe8Q-0eF-jZaQDDv8Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
