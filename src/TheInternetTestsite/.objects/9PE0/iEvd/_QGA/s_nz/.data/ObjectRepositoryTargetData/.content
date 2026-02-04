@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="S3yF9iBvk0-wiMzkJzxo4A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/exit_intent" DesignTimeRectangle="668, 411, 600, 400" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='modal' parentid='ouibounce-modal' tag='DIV' /&gt;" Guid="1a44e1a9-73f2-4f1c-8a4e-465159e2dffa" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="cf346aa2d430a71e9234bceb50f19007.png" xmlns="">0s3qG5WKI40u3tNiLhj2kNw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

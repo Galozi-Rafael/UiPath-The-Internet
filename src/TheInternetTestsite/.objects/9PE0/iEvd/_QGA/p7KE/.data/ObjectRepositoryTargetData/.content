@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WbQ6ShqsbkaXpJ5w9R4L8w" Reference="hgpIwYCmKUK6UuG-Vvg7vw/p7KE_Rtl30GgCqHjrvG25Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/exit_intent" CVScreenId="deac8c82-5712-468a-9983-f1be92d4f235" CvElementArea="45, 5, 159, 34" CvTextArea="78, 14, 67, 12" CvTextArgument="The Internet" CvType="Button" DesignTimeRectangle="36, 0, 177, 41" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='The Internet - Google Chrome' role='pane' /&gt;&lt;ctrl name='The Internet' role='page tab' /&gt;" Guid="271dbae1-128f-4ef9-b147-2489724bb421" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.RegionOffset>
+        <RegionOffset X="20" Y="-30" />
+      </TargetAnchorable.RegionOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="2c146d9df29c697d906f37db8369745b.png" xmlns="">0tD0g8Djb7USf4DdT-p01KQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

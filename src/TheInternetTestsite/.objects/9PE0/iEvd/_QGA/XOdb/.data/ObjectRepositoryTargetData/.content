@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QKglfbBYgk2cgN6dgrp0bg" Reference="hgpIwYCmKUK6UuG-Vvg7vw/XOdbt8Af7kei5OkIlCP0Ng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/exit_intent" DesignTimeRectangle="1040, 8, 751, 41" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='The Internet - Google Chrome' role='pane' /&gt;&lt;ctrl idx='31' role='pane' /&gt;" Guid="3c761c06-b820-48a6-9f08-001851425102" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopLeft" X="500" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="6c2cd5aa213a84b2ad55772f20f7105a.png" xmlns="">0l83GzmBD80OpjdTLzyKfDQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
