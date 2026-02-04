@@ -44,7 +44,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] Exit Intent
 - [x] File Download
 - [x] File Upload
-- [ ] Floating Menu
+- [x] Floating Menu
 - [ ] Forgot Password
 - [ ] Form Authentication
 - [ ] Frames
