@@ -26,48 +26,48 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 
 ## Checklist de cenários implementados
 
-- [x] A/B Testing
-- [x] Add/Remove Elements
-- [x] Basic Auth
-- [x] Broken Images
-- [x] Challenging DOM
-- [x] Checkboxes
-- [x] Context Menu
-- [x] Digest Authentication
-- [x] Disappearing Elements
-- [x] Drag and Drop
-- [x] Dropdown
-- [x] Dynamic Content
-- [x] Dynamic Controls
-- [x] Dynamic Loading
-- [x] Entry Ad
-- [x] Exit Intent
-- [x] File Download
-- [x] File Upload
-- [x] Floating Menu
-- [x] Forgot Password
-- [x] Form Authentication
-- [ ] Frames
-- [ ] Geolocation
-- [ ] Horizontal Slider
-- [ ] Hovers
-- [ ] Infinite Scroll
-- [ ] Inputs
-- [ ] JQuery UI Menus
-- [ ] JavaScript Alerts
-- [ ] JavaScript onload event error
-- [ ] Key Presses
-- [ ] Large & Deep DOM
-- [ ] Multiple Windows
-- [ ] Nested Frames
-- [ ] Notification Messages
-- [ ] Redirect Link
-- [ ] Secure File Download
-- [ ] Shadow DOM
-- [ ] Shifting Content
-- [ ] Slow Resources
-- [ ] Sortable Data Tables
-- [ ] Status Codes
-- [ ] Typos
-- [ ] WYSIWYG Editor
+- [x] 01. A/B Testing
+- [x] 02. Add/Remove Elements
+- [x] 03. Basic Auth
+- [x] 04. Broken Images
+- [x] 05. Challenging DOM
+- [x] 06. Checkboxes
+- [x] 07. Context Menu
+- [x] 08. Digest Authentication
+- [x] 09. Disappearing Elements
+- [x] 10. Drag and Drop
+- [x] 11. Dropdown
+- [x] 12. Dynamic Content
+- [x] 13. Dynamic Controls
+- [x] 14. Dynamic Loading
+- [x] 15. Entry Ad
+- [x] 16. Exit Intent
+- [x] 17. File Download
+- [x] 18. File Upload
+- [x] 19. Floating Menu
+- [x] 20. Forgot Password
+- [x] 21. Form Authentication
+- [ ] 22. Frames
+- [ ] 23. Geolocation
+- [ ] 24. Horizontal Slider
+- [ ] 25. Hovers
+- [ ] 26. Infinite Scroll
+- [ ] 27. Inputs
+- [ ] 28. JQuery UI Menus
+- [ ] 29. JavaScript Alerts
+- [ ] 30. JavaScript onload event error
+- [ ] 31. Key Presses
+- [ ] 32. Large & Deep DOM
+- [ ] 33. Multiple Windows
+- [ ] 34. Nested Frames
+- [ ] 35. Notification Messages
+- [ ] 36. Redirect Link
+- [ ] 37. Secure File Download
+- [ ] 38. Shadow DOM
+- [ ] 39. Shifting Content
+- [ ] 40. Slow Resources
+- [ ] 41. Sortable Data Tables
+- [ ] 42. Status Codes
+- [ ] 43. Typos
+- [ ] 44. WYSIWYG Editor
 
