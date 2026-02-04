@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AI_t0QeROke2HcBoI9z0lA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/login" CVScreenId="b2f70b2c-1d3c-4b97-8409-f1438f04c1c8" CvElementArea="1105, 352, 70, 42" CvTextArea="1129, 367, 21, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1108, 354, 64, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Mude sua senha' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" Guid="a30194d1-9afd-4e6c-be28-add6dbc103f5" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d9ee1d4a616d2542a5c020590f643e38.png" xmlns="">0R8fpqs0vkU-cjPYNbfTHAg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

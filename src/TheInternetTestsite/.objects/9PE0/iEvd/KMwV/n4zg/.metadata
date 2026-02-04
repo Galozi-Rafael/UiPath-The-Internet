@@ -1,0 +1,13 @@
+﻿{
+  "Name": "SuperSecretPassword!",
+  "Type": "Element",
+  "Id": "n4zgppIQt0-AOj0bq_vOTA",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/n4zgppIQt0-AOj0bq_vOTA",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/KMwV5JSKLEWUxcS7BZptXw",
+  "Created": "2026-02-04T21:23:26.5776696Z",
+  "Updated": "2026-02-04T21:23:26.5776696Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
