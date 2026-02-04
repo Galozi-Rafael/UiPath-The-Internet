@@ -45,7 +45,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] File Download
 - [x] File Upload
 - [x] Floating Menu
-- [ ] Forgot Password
+- [x] Forgot Password
 - [ ] Form Authentication
 - [ ] Frames
 - [ ] Geolocation

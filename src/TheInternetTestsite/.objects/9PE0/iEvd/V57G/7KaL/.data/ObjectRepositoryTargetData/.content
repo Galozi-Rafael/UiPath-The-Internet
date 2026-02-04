@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fOvUnjYDgUOz_oNMCD1DAQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/forgot_password" CVScreenId="137879b3-746a-4096-a67d-2e56096c0643" CvTextArea="14, 194, 302, 26" CvTextArgument="Internal Server Error" CvType="Text" DesignTimeRectangle="16, 189, 1904, 37" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="65e6cc46-a71a-4904-8b75-1ff97483b702" ScopeSelectorArgument="&lt;html app='chrome.exe' title='the-internet.herokuapp.com/forgot_password' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="15b001cf5ec24519f2ec0e6d2705b1d0.png" xmlns="">0KetLrYKA6kWnH5azEaD7jQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
