@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5ft3oq28yE-byZ2vGXT8Sg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/upload" DesignTimeRectangle="483, 436, 400, 400" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='drag-drop-upload' tag='DIV' /&gt;" Guid="e576cc3c-dcf9-415d-9cdd-be9499fbead5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d3ba5593d58b9abbf2e1e091bae2b9d2.png" xmlns="">0zlzAOfXRYEm3t0shorVHJQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
