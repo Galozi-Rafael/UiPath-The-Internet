@@ -1,0 +1,14 @@
+﻿{
+  "Name": "random_data.txt",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "qnHCJHwt0kimhOxXB7w5DA",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/qnHCJHwt0kimhOxXB7w5DA",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/LP5Qmkl39kKGSL8gtMQoLA",
+  "Created": "2026-02-04T20:25:13.6917613Z",
+  "Updated": "2026-02-04T20:25:13.6917613Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

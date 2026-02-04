@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mtrJ83JFrEycOITK34z6Zg" Reference="hgpIwYCmKUK6UuG-Vvg7vw/Nd4-Q68EGUOw7_2fV4bUjg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/download" CVScreenId="7dfab3fc-7713-4e0b-a669-0a1ca8dfc91d" CvTextArea="482, 269, 119, 18" CvTextArgument="random_data.txt" CvType="Text" DesignTimeRectangle="483, 269, 116, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='content' tag='A' /&gt;" Guid="9a67cb54-7dac-4ab3-b7e8-e75d27001351" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="479c15bccb097e5c3baa1d84884dca38.png" xmlns="">0gKNH9aaf7UesF3nB9CDoUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

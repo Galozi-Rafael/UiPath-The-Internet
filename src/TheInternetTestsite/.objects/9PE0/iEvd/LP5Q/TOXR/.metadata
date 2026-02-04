@@ -1,0 +1,13 @@
+﻿{
+  "Name": "File Downloader random_…(1)",
+  "Type": "Element",
+  "Id": "TOXR8XzQx0SYY5FqWszrgw",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/TOXR8XzQx0SYY5FqWszrgw",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/LP5Qmkl39kKGSL8gtMQoLA",
+  "Created": "2026-02-04T20:24:51.95336Z",
+  "Updated": "2026-02-04T20:24:51.95336Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

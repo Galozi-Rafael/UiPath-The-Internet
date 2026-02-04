@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mqCHZcvdAk2OTBg5uvRkUA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/download" CVScreenId="7dfab3fc-7713-4e0b-a669-0a1ca8dfc91d" CvTextArea="482, 269, 119, 18" CvTextArgument="random_data.txt" CvType="Text" DesignTimeRectangle="483, 269, 116, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='content' tag='A' /&gt;" Guid="e6b7ba73-b49b-43a5-b297-0e6277423698" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="479c15bccb097e5c3baa1d84884dca38.png" xmlns="">0TF6EUo9kKkyrtalf3aXm3Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
