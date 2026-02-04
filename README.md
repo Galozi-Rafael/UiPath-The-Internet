@@ -41,7 +41,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] Dynamic Controls
 - [x] Dynamic Loading
 - [x] Entry Ad
-- [ ] Exit Intent
+- [x] Exit Intent
 - [ ] File Download
 - [ ] File Upload
 - [ ] Floating Menu
