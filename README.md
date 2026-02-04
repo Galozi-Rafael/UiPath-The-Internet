@@ -42,7 +42,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] Dynamic Loading
 - [x] Entry Ad
 - [x] Exit Intent
-- [ ] File Download
+- [x] File Download
 - [ ] File Upload
 - [ ] Floating Menu
 - [ ] Forgot Password
