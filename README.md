@@ -43,7 +43,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] Entry Ad
 - [x] Exit Intent
 - [x] File Download
-- [ ] File Upload
+- [x] File Upload
 - [ ] Floating Menu
 - [ ] Forgot Password
 - [ ] Form Authentication
