@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3dZRPwcP60iV5J_hxDOhtw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/hovers" CVScreenId="a901a957-1700-468d-a787-3efaa1de0044" CvTextArea="481, 512, 85, 18" CvTextArgument="View profile" CvType="Text" DesignTimeRectangle="483, 512, 82, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='content' tag='A' /&gt;" Guid="2d1b6de0-5c7f-4dd1-83af-3e36409074cf" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a901a957-1700-468d-a787-3efaa1de0044" CvTextArea="482, 482, 106, 16" CvTextArgument="name: user1" CvType="Text" DesignTimeRectangle="483, 479, 160, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H5' type='' class='' aaname='name: user1' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='name: user1' /&gt;" Guid="899d4bdd-69e9-4b3d-85bb-bdaff82b1603" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dfbbd0fe6d6538020d9c07240ec8e371.png" xmlns="">0TBQgfQLSo0iDwGC0xQJPEg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

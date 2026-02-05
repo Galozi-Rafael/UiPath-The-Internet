@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6FEGPOf_NUq8tPuevboKRQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/hovers" CVScreenId="cad8403a-537b-4705-99a3-59045e926ef2" CvTextArea="648, 267, 362, 161" CvTextArgument="AAA" CvType="Text" DesignTimeRectangle="663, 263, 160, 160" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' parentid='content' tag='IMG' /&gt;" Guid="bf57dfba-fd03-4498-afd4-3ed3bd41247b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="cb1ea6f14fa1007f80734f8305974cc3.png" xmlns="">0VrZskf7G-E6nLevc1SFVLA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

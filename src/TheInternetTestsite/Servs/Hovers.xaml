@@ -1,0 +1,296 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Hovers" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Hovers_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Hovers" sap:VirtualizedContainerService.HintSize="1281,4688" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap2010:Annotation.AnnotationText="Trata da lógica para Hovers." DisplayName="Sequence - Hovers" sap:VirtualizedContainerService.HintSize="522,4665" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Chrome The Internet(22)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,4551" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="689b7bb6-820c-441e-8813-b238325439a0" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,4357" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NHover DisplayName="Hover 'IMG'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" HoverTime="2" sap2010:WorkflowViewState.IdRef="NHover_1" InteractionMode="DebuggerApi" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5">
+                <uix:NHover.Target>
+                  <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/hovers" CVScreenId="53250a98-e9dd-499f-b099-180f3a8d914d" CvElementArea="480, 258, 166, 172" CvType="Icon" DesignTimeRectangle="483, 263, 160, 160" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='content' tag='IMG' /&gt;" Guid="5e0898bb-7db0-4cf2-a9b3-12d9ffdea7be" ImageBase64="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" InformativeScreenshot="6525945f1aa1c538283d5d2767a4932a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                </uix:NHover.Target>
+              </uix:NHover>
+              <uix:NClick ActivateBefore="True" ClickType="Single" CursorMotionType="[UiPath.UIAutomationNext.Enums.CursorMotionType.Smooth]" DisplayName="Click 'View profile'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/hovers" CVScreenId="5a7c9a18-10c2-416d-bc33-ae36b08753d0" ContentHash="3dZRPwcP60iV5J_hxDOhtw" CvTextArea="481, 512, 85, 18" CvTextArgument="View profile" CvType="Text" DesignTimeRectangle="483, 512, 82, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='content' tag='A' /&gt;" Guid="19dd05c2-ad11-4110-967d-85645f3911d0" InformativeScreenshot="dfbbd0fe6d6538020d9c07240ec8e371.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/EwRwOWLJZ06ioF-70XXWVg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="5a7c9a18-10c2-416d-bc33-ae36b08753d0" CvTextArea="482, 482, 106, 16" CvTextArgument="name: user1" CvType="Text" DesignTimeRectangle="483, 479, 160, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H5' type='' class='' aaname='name: user1' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='name: user1' /&gt;" Guid="5ad35ddd-0e41-483c-bed8-948904b191d0" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NCheckState DisplayName="Check App State 'Not Found'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,986" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,507" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="user1Page" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NGetText DisplayName="Get Text 'Not Found(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,147" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" TextString="[user1Page]" Version="V5">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/users/1" CVScreenId="85157b7d-93ed-4bdb-93a3-3d9678bad428" ContentHash="VcQjN8lF-Ea4nR1pAzEa8Q" DesignTimeRectangle="16, 189, 1904, 37" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="84c92c46-27c9-4475-83f3-76d4ab3162e8" InformativeScreenshot="a98a1aec25d319e3a5482d8e712be8ed.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/mL20Nv_g20GP4dmEIqg-5A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='the-internet.herokuapp.com/users/1' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Página não encontrada. &quot; + user1Page]" />
+                    <uix:NNavigateBrowser DisplayName="Navigate Browser - Go Back" sap:VirtualizedContainerService.HintSize="416,117" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_3" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5" />
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,181" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NNavigateBrowser DisplayName="Navigate Browser - Go Back" sap:VirtualizedContainerService.HintSize="416,117" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_4" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5" />
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/users/1" CVScreenId="85157b7d-93ed-4bdb-93a3-3d9678bad428" ContentHash="5tlzhRadMkedNbGdVrXmnQ" CvTextArea="14, 194, 150, 26" CvTextArgument="Not Found" CvType="Text" DesignTimeRectangle="16, 189, 1904, 37" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="929b3805-c9c1-4fda-8c6e-9ed06ac7c2fd" InformativeScreenshot="a98a1aec25d319e3a5482d8e712be8ed.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/Ge4lOYQ9ek-zBfZ4KATQ4w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='the-internet.herokuapp.com/users/1' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                </uix:NCheckState.Target>
+              </uix:NCheckState>
+              <uix:NHover DisplayName="Hover 'IMG'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" HoverTime="2" sap2010:WorkflowViewState.IdRef="NHover_2" InteractionMode="DebuggerApi" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5">
+                <uix:NHover.Target>
+                  <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/hovers" CVScreenId="cad8403a-537b-4705-99a3-59045e926ef2" CvTextArea="648, 267, 362, 161" CvTextArgument="AAA" CvType="Text" DesignTimeRectangle="663, 263, 160, 160" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' parentid='content' tag='IMG' /&gt;" Guid="bf57dfba-fd03-4498-afd4-3ed3bd41247b" InformativeScreenshot="cb1ea6f14fa1007f80734f8305974cc3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                </uix:NHover.Target>
+              </uix:NHover>
+              <uix:NClick ActivateBefore="True" ClickType="Single" CursorMotionType="[UiPath.UIAutomationNext.Enums.CursorMotionType.Smooth]" DisplayName="Click 'View profile(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/hovers" CVScreenId="13722b75-9e9b-4597-a2f3-506eb7c8476e" ContentHash="pqecWmJDCk-xuGvnUD02Jg" CvTextArea="661, 512, 85, 18" CvTextArgument="View profile" CvType="Text" DesignTimeRectangle="663, 512, 82, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl href='/users/2' parentid='content' tag='A' /&gt;" Guid="87225faf-4826-412a-98a2-1056ac46f02f" InformativeScreenshot="8aa252c503b0b3cae68257fa3536a4c1.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/VVL7Nqmcm0KKXePvWdvZWw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="13722b75-9e9b-4597-a2f3-506eb7c8476e" CvTextArea="662, 482, 108, 16" CvTextArgument="name: user2" CvType="Text" DesignTimeRectangle="663, 479, 160, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H5' class='' aaname='name: user2' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='name: user2' /&gt;" Guid="2e81be0b-a681-41f4-b842-36049de323ad" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NCheckState DisplayName="Check App State 'Not Found'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,986" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,507" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="user1Page" />
+                      <Variable x:TypeArguments="x:String" Name="user2Page" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NGetText DisplayName="Get Text 'Not Found(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,147" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" TextString="[user2Page]" Version="V5">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/users/1" CVScreenId="85157b7d-93ed-4bdb-93a3-3d9678bad428" ContentHash="VcQjN8lF-Ea4nR1pAzEa8Q" DesignTimeRectangle="16, 189, 1904, 37" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="84c92c46-27c9-4475-83f3-76d4ab3162e8" InformativeScreenshot="a98a1aec25d319e3a5482d8e712be8ed.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/mL20Nv_g20GP4dmEIqg-5A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='the-internet.herokuapp.com/users/1' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Página não encontrada. &quot; + user2Page]" />
+                    <uix:NNavigateBrowser DisplayName="Navigate Browser - Go Back" sap:VirtualizedContainerService.HintSize="416,117" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_2" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5" />
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,181" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NNavigateBrowser DisplayName="Navigate Browser - Go Back" sap:VirtualizedContainerService.HintSize="416,117" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_5" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5" />
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/users/1" CVScreenId="85157b7d-93ed-4bdb-93a3-3d9678bad428" ContentHash="5tlzhRadMkedNbGdVrXmnQ" CvTextArea="14, 194, 150, 26" CvTextArgument="Not Found" CvType="Text" DesignTimeRectangle="16, 189, 1904, 37" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="929b3805-c9c1-4fda-8c6e-9ed06ac7c2fd" InformativeScreenshot="a98a1aec25d319e3a5482d8e712be8ed.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/Ge4lOYQ9ek-zBfZ4KATQ4w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='the-internet.herokuapp.com/users/1' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                </uix:NCheckState.Target>
+              </uix:NCheckState>
+              <uix:NHover DisplayName="Hover 'IMG'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" HoverTime="2" sap2010:WorkflowViewState.IdRef="NHover_3" InteractionMode="DebuggerApi" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5">
+                <uix:NHover.Target>
+                  <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/hovers" CVScreenId="53250a98-e9dd-499f-b099-180f3a8d914d" CvElementArea="839, 255, 169, 178" CvType="Icon" DesignTimeRectangle="843, 263, 160, 160" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='3' parentid='content' tag='IMG' /&gt;" Guid="e2e9cd03-917c-46c9-919b-0fc01eb4ab2a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAsQSURBVHhe7Z2Jctw4DET3//8v9307jnM4zh0ns9Xj6gmMoSQnljgA1K+qy5G85RXBFm9S/22ECMR//oYQh2RnyFu3bknSwSRDSqEkQ0qhJENKoSRDSqEkQ0qhJENKoSRDSqEkQ0qhJENKoSRDSqEkQ0qhJENKoSRDSqEkQ0qhJENKoSRDSqEkQ0qhJENKoSRDSqEkQ0qhJENKoSRDSqEkQ0qhJENKoSRDSqEkQ0qhJENKoSRDSqEkQ0qhJENKoSRDSqG0SkPevHlz796Ubt++vXevt/7lubNpdYacylT8nuab+m+nhL9znb9lX4IIL0QPrc6Q0JQ5+PvrmgB/x/+tq/7NqWesqlUaEvLG8KUR5M0EPXjwYPP06dPN0dHR5v3795vPnz9vvn79utOXL192P09PTzdv3rzZvHz5cvPw4cO9Z/CyJvTPtxat1pBjssa4c+fO1oAfPnzY/PjxYxcwz+/fv/2tPX79+rX59OnT1sz379/f+/9CQ0Ycul9NZDWG9Bk7VDU+efJkW8LBRHNijYvSFaXn3bt3B0tHW1KvQWRVhhzL4BcvXmyrXGDNc5USEPzLf3d+fr45OTnZGvOqz1lVZDWG9GJphGr5+/fvu4AcApTGaHOimeCfcS3mJGUN6atoL7TlPn78uAtEBNBWRUk9ZcKptGUUKWXIVu+4JWT63G3EucBzoQ3rS0ubrqF2Z2aRMob0ZsRPX+XhGkM2nqu2/3ry7du3vSEjpKWKAb1IGUNCNGDLiOg4oNMS0XxjPHv27FIafXXur7OKlDLkkO7du3ep4xLVlEO9ewwR+RqgmkhZQzLjMMPy8+fPbRqjGhFMPRsG1VulYRWDklKG9JmDaholIzLbdmJwPWWAiDx//nwvja10ZxQpZUgKJQl6qRzotmQ0IsGzYyaJafTpzixSypC2U4M56IpgdgdtYptmH4eMImUMac2ITgDIXBq2YHowF84SskpJScoYkkInppoRLUwbphqRXj/ElVWknCGxzItUN+bQUraMIqUMiSlBUtGMPk1nZ2clSkeIlDEkqi6MN/pM89dVYLqwWqmCKUkZQ7569WqXKE9VUwJsmfCxyChSxpB2m0FlA7bg2GRmkVSGHKqabNtxLfClw0+0JX1MoExjlCSVIYdke9ZrBKbEYHkmA3qR9IZERqwV2zTB4gsfG2qoZokkkt6QnJVZMzAm5u19bFhiypALylZLCDSm0cQFdo47m0g6Q1rBnFH3xhwC1BY+RllEUhvy8ePHu4SsHVTbWOHkY5RFJK0hUV2jIS/+kHmQnKQ1JPT27dtdQsRFKZl16IekMqTvLWJAWFwma8eGpDKkF/Yui8s8evRoL04ZRFIZktURF6WOHZO3VrLOa5N0hrTVtoZ89sHORB+3DCKpDOkl9sFCEx+nDCLpDGl7kWtbZnYVZMgDiidSiAvwgvqzgLKIpDOkbUOqU7OP7WX7YbLIIukMafdft06mWDvYBuxjlkEklSH9LETV0ymugz2vPJNIOkOydMTP4+PjXULEZtum9jHLIpLKkF7oUaqnfQHigK0cmdqNViSdIW21jfaS+AOPV8koks6QXupp/yHrtCFE0htSHZsLUGXbLzf4DmB0kfSGxEDwEGtqX+KbOz42mUTSGxIlwdgZ4q17FcEZPz42mURSGdIO+/DejRs3Nu/evdslaA3YUyvA1HBPhp43SWXIlmBOfGDIUrFUHEsTtnL4uDA2/l5UkVSGHHvT/XcLxzIwM750xE9/jIr991jMIomkMqSXDTwWFawRfCpvLC5ZRFIZ0k8d8j7/XX3Tly/1ce2/te1jlkUklSHHqh9kRuWZG29GgLl8H5+spiSpDHkVVVtw0TIiwBfKspqvJVLOkJitwAkOY9hMHsrwyOCZ0WZuDYNlFSllSGYMPpeBHYkZjYfnHHpW/u7169fbdFYxI0RKGdIK20GZiRZ/nQk8O44fRPpgxCpmhEgpQ/oMQntyyoBTv+/J1LNgy4ZdQAGNdfQyiZQyZEtYDcSMzliFE3RihoZ4KpiSlDckMssuUYtuxNbzYc1npc/ItURKGrJVYrSO7mtlfjRQTWc90exvREoackjonZJWNR4NdGB8m7GqyKoMiXYXxu+47SGyKTkL0yrtK4qsypAUOgenp6e7IEQCLwv3xrTm7auKrMaQNmOZ0VhlHeXQU5TSrV2DazAjRFZjSKhV2uBLDhG+dYP1nCgZ/Viqf35/r4rIqgzJkhEdBXzOONrZQCglUWWj/eiPRPEvUjWRVRkSwycnJyeb8/PzXQAidmh4MjD2CmF7Bp7dlo4VS0qyGkNiHDKi+TytZ8TAPgbGW02OKiJpDdkqMWynhb/D59ZsiZgVdnqQVl9CepP632cQSWPIvy0dMN44tS4yI9jyipVM3nTWqIjT38QqgkgaQ1qNBRsdlkxz1/8KRgamDidlJ87fjyiSxpAM7lCQcQ+lIlbFVDUhsLNL6PzYz4DYuEzFK5pIGkO2gmoDjnnqykYcA1thfZOmFa/IImkMCfm3HdcYr8NBnWsHM04cIhpr0kQVSWNI/8bjGm0oez6kLSEjL5yYC582jCbYQ6d8qRlZJI0hfWDRXmwN5/hMqoJPl78maFdm/HgSCWfIsXYQr3Em5FCGiAu4M3FMvgl0SJFwhoR8kHDN6gcD3R6Zcx/ExJ+K5uM6db+nSEhD+uqZOjo62j04kRn3sTFhD3wsrhFEQhrS96RxzX3W4mpYU3KdZauTE6F0hEg4Q/qg4RrrBLkCxpeI/nrtIB6tEQbULogrY+uNeWiRcIaE7FuL3rQ+1P53tF5S3EP7GzGNZkaIhDMkq2j8xDhjy4ytEkBcphUbxDLqt2xIOENSMOVV9ru0Ai+GwdhtxEMHSBhD+mrEHoEiro+tVbB1wzaLInRsSFdDTgWBprRjjTLlMmB7hI8/88UOE7XyaQmRrob08qUiEo8FAkM9RTEvGErzeWDzwt9bUuQghuTwg080Fte22o0y5fwgpujk+Pakz5NeIl0NaasC3rPG9F/ksiWlWAZs8/D55POoh0hXQ0K+ZOS/x74zI1MuA+OKQXPmRW8jUqS7ISlvzNamfRlxPsba5Ki6sWedZrSm7FWFk4MZ0iYUp0iI5WmZkeDwrVbetK6XEDmYISm8ma3ZGNEfnHPk86eXyEEMyeoaP3HI0tibK/qBEQ6fV71EDmJICm+kSsdYoPlk86hHdQ2RgxpSuwVjgZoKJ2NYE/bqdZODGRKrTlRVx4TDQD1FDmJIvHUqHWOCQgIrgnpV1RTpbkiYcWwQXBwGX1thgUvPgXJyEEOiZy3iYU2JAxh6mREi3Q2JcUfi30oRC+x/9/m3lEhXQ+KNww44kQO083u1JUk3Q3IwHMfliTxMnUE5l0g3Q0KoAkQuWt/OWUKkmyFRQp6dne3+xyIH6Nz0qLZJN0OiM6NOTE56bJ0l3QzJc3m0Cjwf2AHq83NukW6GxFL5sUWiIi6Y3/b5ObdIF0NiI5HIjT2ZdwmRLoZsnekocoFj/Xy+zimyuCHVu67B0tU2WdSQHAxHYkR+/B7uOUUWNSSklT118KvJ5xRZ3JA4fF3UAKu0uAKIg+VzrQgiixsSE/Qa5qkBZ228CeeYySGLG7L1LRmRF8y40YBzGJEiixoSJ5mJWtiPMqUzpFb31GOp1T9kUUOenJxs/7bakHVAn8Dn8xwiixlSOwtrstQAOVnUkBoQrwdqOxws6/P7uiKLGRINXlXVNeF3uecUWcyQ6mHXZYnPH5PFDInlSqImx8fHe/l9XZGdIYWIgAwpQvE/SCC/i1H5FzwAAAAASUVORK5CYII=" InformativeScreenshot="41939b18810eb8df6f33d928c34ab329.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                </uix:NHover.Target>
+              </uix:NHover>
+              <uix:NClick ActivateBefore="True" ClickType="Single" CursorMotionType="[UiPath.UIAutomationNext.Enums.CursorMotionType.Smooth]" DisplayName="Click 'View profile(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/hovers" CVScreenId="50ba7c15-32bf-4fab-9ae3-ae07fc628ec2" ContentHash="iPaQFWoN_kiY6R7h69jBVQ" CvTextArea="841, 512, 85, 18" CvTextArgument="View profile" CvType="Text" DesignTimeRectangle="843, 512, 82, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl href='/users/3' parentid='content' tag='A' /&gt;" Guid="9785a3d2-0d77-4795-b721-dd13f71b7ae5" InformativeScreenshot="c8be76cd618761b2bf6e389356fb0ec3.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/U-3UTD7AV0Sn_wI8HiTYCA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="50ba7c15-32bf-4fab-9ae3-ae07fc628ec2" CvTextArea="842, 482, 108, 16" CvTextArgument="name: user3" CvType="Text" DesignTimeRectangle="843, 479, 160, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H5' class='' aaname='name: user3' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='name: user3' /&gt;" Guid="cd1b5c2d-a183-4bd0-b181-97c2f440da84" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NCheckState DisplayName="Check App State 'Not Found'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,977" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,507" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="user1Page" />
+                      <Variable x:TypeArguments="x:String" Name="user3Page" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NGetText DisplayName="Get Text 'Not Found(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,147" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" TextString="[user3Page]" Version="V5">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/users/1" CVScreenId="85157b7d-93ed-4bdb-93a3-3d9678bad428" ContentHash="VcQjN8lF-Ea4nR1pAzEa8Q" DesignTimeRectangle="16, 189, 1904, 37" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="84c92c46-27c9-4475-83f3-76d4ab3162e8" InformativeScreenshot="a98a1aec25d319e3a5482d8e712be8ed.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/mL20Nv_g20GP4dmEIqg-5A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='the-internet.herokuapp.com/users/1' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Página não encontrada. &quot; + user3Page]" />
+                    <uix:NNavigateBrowser DisplayName="Navigate Browser - Go Back" sap:VirtualizedContainerService.HintSize="416,117" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_1" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5" />
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,181" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NNavigateBrowser DisplayName="Navigate Browser - Go Back" sap:VirtualizedContainerService.HintSize="416,117" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_6" ScopeIdentifier="689b7bb6-820c-441e-8813-b238325439a0" Version="V5" />
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/users/1" CVScreenId="85157b7d-93ed-4bdb-93a3-3d9678bad428" ContentHash="5tlzhRadMkedNbGdVrXmnQ" CvTextArea="14, 194, 150, 26" CvTextArgument="Not Found" CvType="Text" DesignTimeRectangle="16, 189, 1904, 37" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="929b3805-c9c1-4fda-8c6e-9ed06ac7c2fd" InformativeScreenshot="a98a1aec25d319e3a5482d8e712be8ed.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/Ge4lOYQ9ek-zBfZ4KATQ4w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='the-internet.herokuapp.com/users/1' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                </uix:NCheckState.Target>
+              </uix:NCheckState>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.OCREngine>
+          <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+            <ActivityFunc.Argument>
+              <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+            </ActivityFunc.Argument>
+          </ActivityFunc>
+        </uix:NApplicationCard.OCREngine>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="m5DBRBoRsEuuoHW5M4mdcw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAc7SURBVFhHnZZ7bJPXGcb9TwesBQKFlhVInBs4cRx/cZI2kOBbaBKgEMp/07oRaZom7fLXpk6l3P6ZNG0aDoEQCBAHkq6jqLu10tQtsZ17WLuhoRFStM2UJM6lYKfQrpDv+H2m95zPjhNCSznST8/zntjvc94Tf7JNpkdcYbeWNuV11E15S/1T3tLLH1eWxKYqSzHpLcGUl31JcMpb7J+sLN7Lr53//sde4zWaeaKytJ5DjDCa8BRj0lOCSU8xMVw/gLvYP+7WzPP7PfJSE5f4OFQGuVVYMtBdTBNuB4272TtowlCux90OhcuBcafj0PzeX7r45BOe4rARZDR2SD8nwCDCQQzXziKKuIrUHntFeLzsEW9j0lNkH3c7wvND1ERFxKhAFWSEIOLUkjrmLMLYFk3BXtVffgienMMTEyg1MILGnKppZIsRlBq2RcNoggo7xirsNCpR9Ui5PTxeZln4EPw/j7iKwioopXkyTDWWB2Ct0EjWHGAEqiDpaUTWSkfKCxlSag8v+JSMOjVfMkRBqRMZ0xhBynNDWXNzNSFulhdKjFDc3DwfG93cZPPNCdfe3G1u+qFrNoRDywuTgXIaI2TqR9/F3bfaoUfGkFj02YegqXcgLu+EuFTMEGucddABySUHMXH++6ADGEj5PBS/uce/xV+L4coiNZVxXVI325SvLsfdC+3J0EiMEBqeQWhYx/Xx+Oxhxn8D8YEL+mARhEQjMaghfkkjMaCpekDW6hY0/+40xxsvgzn0M2/yqjiY9aNNNoxUbcb968My4O9hHd/3f4rSw9MoPWRweBq7fHcQvDZj3MgwxPsVEIN2DlQ6wJ61EGKwkMRAYQyXtTST9sbuOq19N4rad4M1tKtEhjI3N9mI9c5v22TjU8F7KDk0PcvBFG/QHLynDhFpU2EDNoOCFGWsNNObX2fS2mr9Wlst7G27SGuvpVd+UYUbZQX4qMxKzOjL1bIhT1d8MCZxGDrL9Jz9D8K6fE/86l4S/Vbo/fkQCxAfyPeb7G21Qfv5WtjP7zKoxTt7SnCjzIrwC1bcfff3stmOI5+g6EBsloMpmvBG/b2Wu8bn4Tzp/XkQc7CQ6Lcg3m+heF/eZVPhuV2xwnM7kcDWuhNbj23Dv5w2hJ/Pp/vXr2E4IqAdiC1A9CHEMBaLA/dGIfo3UJI+CRi9bwPi/blRk83/EmytEpLeqH/+g3KES/OIJwkMzcC+P7owB2Lz6igK90cRMD6Qoi8Xem8OBNOXC9FnqKyzyVTQsgMF/pdQ4N9BUluVvtC0DVcqrLJJ59B92PZHH4CDUjV1v3PIOEBvNkRfFoneLBJ92dB7syBS4APErC3bSbED1pbtMJR+/KqT9MgoxqJxFLx++ytxLSJAn16F6M2E3pMJ0Wsm0WuWtfIZXEdN+We3/yP/zDYotiP/7Hbpraxnt1FP6IKcpO7MHVhfvw3rvttKv4CqX02rp2DyIlRQOuk96RCSDIie9cRe71kfNFnO1PjzTm/DLDXyAJbTNcT+O+++Kpv97b8zyN93G3n7bht6S/rZena/Y+i+uv73N0HvXg+9ex1EzzpiNTwEa/dav8nSXFNnaa5JBjKybq4mS3M1K85dUY/i8c7PYHntFiz7bimdz75bON7xP/na6ZEW0rvXQvSsJdHzHOndzyGBSGjX2r0ms9+dlneqOrbxVDVSsbA2VxFT0rqHrn38b9n4r1fvw/vLGDa+dmsO3z79CS79R33wRqMfItqTD73rGwZrILrXUEJF97PSI5imvpY3nqyu33iyChsMpD9VRYl6w8kqKvHvodYrv5MBvIbGhDwMMxqd/TLi17T8aRNE1xroXc8mEayhZ6SKrtUkQqv9yW9DS1ONeUPTi2ByDU34FCinaSu521/B29few5BxI7xG7kzA/8+38a0//BSuM07oodWKLkNDq6QXXatI+tAqnn7uL6Pcxsr63BNbkSCnkfVFcGjOCQmUVhL/LanzuPjHXNJDT6tQqStJKIUIrSTWeNfKB38pm33utOwTleHsRtU4+3glco5XSuU9qbzXOLdO5Zutz5MIrSA9uAJ6aAWkBldAGF6E0kgE08Lzs5PL7HObsxu94UTDrGNeZB/zIuu4lyTsjXqh/Rt/eQYiuJz04DLSg8shQstJsAaXkUH4gaufv/gQWQ2esGza4EHmMQ8x7BNksh7zSpW+wYuftBVCDyyFHlymNLAUIvgUMexnAkvDCC7+4vDE4kNkHvWEM496YG5wU+ZRt1TpGzwwH1U+QUXTZtx472nogac4FHrgyTmIwJPhzx81PHWZfe7D5no3Ho4L5qMuOvNWFvTOJRCBr0v0wGLiWg8s4X1f8nl/nMW3ke5z+TN8LmTUuyj9iJPYp/ucsi5vLIPeudhgEfSORdADi2J6x5L6z//8GFM/bPFTsv7XW+rSjzhbM3yuYPoRZyz9iBMXLq6DCDwRjXd87XK8Y7F/pvOJuq8y8f8BmWZYCb9aOw0AAAAASUVORK5CYII=" InformativeScreenshot="8598dcaf4cd0ec632ad2fd8832ff0a96.jpg" Reference="hgpIwYCmKUK6UuG-Vvg7vw/B6RGguVQV0-2PEJU_i-j7A" Selector="&lt;html app='chrome.exe' title='The Internet' /&gt;" Url="https://the-internet.herokuapp.com/hovers" Version="V2">
+            <uix:TargetApp.Arguments>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.Arguments>
+            <uix:TargetApp.WorkingDirectory>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.WorkingDirectory>
+          </uix:TargetApp>
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
