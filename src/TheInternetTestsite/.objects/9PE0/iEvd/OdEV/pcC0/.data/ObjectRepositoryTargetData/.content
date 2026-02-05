@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="55j94FFNiUG-KDvg8QA2sQ" Reference="hgpIwYCmKUK6UuG-Vvg7vw/pcC0OpjGNEaFB2GIEv_vng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/horizontal_slider" DesignTimeRectangle="483, 346, 129, 16" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="39fad9bc-3f59-47c0-9305-31f12a359c02" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomRight" X="86" Y="-1" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="de741667834d54bbcffcea5f046491ad.png" xmlns="">0AP_KedIdXEedY6Dy1GuhjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">DragAndDrop</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

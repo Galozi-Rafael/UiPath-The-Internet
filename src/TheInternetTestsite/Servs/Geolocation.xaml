@@ -177,7 +177,7 @@
                         <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/geolocation" CVScreenId="1574c9e4-ed58-458f-98d1-aa1312c4ec78" ContentHash="MYfZCEPHfkSMfeSJihWE5Q" CvTextArea="482, 427, 121, 18" CvTextArgument="See it on Google" CvType="Text" DesignTimeRectangle="483, 427, 119, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='map-link' tag='A' /&gt;" Guid="abf5da7b-5667-437c-9a84-6a4a20bb3d46" InformativeScreenshot="e16f8e27e4850ed632650d9f1916d538.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/g77sJ-pstkSmqZzNwLBeiQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                       </uix:NGetAttributeGeneric.Target>
                     </uix:NGetAttributeGeneric>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[String.Join(&quot;, &quot;, {latitudeText, longitudeText, linkGoogleMaps})]" />
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[String.Join(&quot;, &quot;, {latitudeText, longitudeText, linkGoogleMaps})]" />
                   </Sequence>
                 </uix:NCheckState.IfNotExists>
                 <uix:NCheckState.Target>
@@ -211,7 +211,7 @@
                   <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/geolocation" CVScreenId="1574c9e4-ed58-458f-98d1-aa1312c4ec78" ContentHash="MYfZCEPHfkSMfeSJihWE5Q" CvTextArea="482, 427, 121, 18" CvTextArgument="See it on Google" CvType="Text" DesignTimeRectangle="483, 427, 119, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='map-link' tag='A' /&gt;" Guid="abf5da7b-5667-437c-9a84-6a4a20bb3d46" InformativeScreenshot="e16f8e27e4850ed632650d9f1916d538.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/g77sJ-pstkSmqZzNwLBeiQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                 </uix:NGetAttributeGeneric.Target>
               </uix:NGetAttributeGeneric>
-              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,170" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[String.Join(&quot;, &quot;, {latitudeText, longitudeText, linkGoogleMaps})]" />
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,170" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[String.Join(&quot;, &quot;, {latitudeText, longitudeText, linkGoogleMaps})]" />
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
