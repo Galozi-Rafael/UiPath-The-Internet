@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HaOGa2ynH0yDrps_KOQC_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/status_codes/200" DesignTimeRectangle="483, 270, 970, 76" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='P' aaname='     This page returned a 200 status code.          For a definition and common list of HTTP status codes, go    ' innertext='     This page returned a 200 status code.          For a definition and common list of HTTP status codes, go here   ' /&gt;" Guid="51db726b-3e9e-4c5b-a9a8-412fdf86261a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="85ef6ae210231c5045ae9d21d45ba535.png" xmlns="">04VopaRCL2EyjoVr1Av6MbA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

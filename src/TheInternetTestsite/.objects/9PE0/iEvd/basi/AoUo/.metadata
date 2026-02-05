@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Status Codes",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "AoUoDSj3DkuGIhy9xavsxA",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/AoUoDSj3DkuGIhy9xavsxA",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/basiysAeS02bOq5fUaXVqg",
+  "Created": "2026-02-05T22:47:22.329925Z",
+  "Updated": "2026-02-05T22:47:22.329925Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
