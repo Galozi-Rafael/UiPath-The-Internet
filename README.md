@@ -50,7 +50,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] 22. Frames
 - [x] 23. Geolocation
 - [x] 24. Horizontal Slider
-- [ ] 25. Hovers
+- [x] 25. Hovers
 - [ ] 26. Infinite Scroll
 - [ ] 27. Inputs
 - [ ] 28. JQuery UI Menus
