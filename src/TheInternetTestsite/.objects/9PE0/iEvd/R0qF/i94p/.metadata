@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click Here",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "i94pIRCQzEiObrC7ZtHB5A",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/i94pIRCQzEiObrC7ZtHB5A",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/R0qFeuas3Em1gCEFkV1spw",
+  "Created": "2026-02-05T20:54:06.7811072Z",
+  "Updated": "2026-02-05T20:54:06.7811072Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

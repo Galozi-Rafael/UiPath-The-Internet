@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CSjqqTtH9Eu3lPjyro8pjg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/windows/new" CVScreenId="0722840c-adc3-4b92-af47-7674b1070f27" CvType="AnyWordGroup" DesignTimeRectangle="16, 189, 1904, 832" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BODY' /&gt;" Guid="5ae75305-8c2f-4635-a07f-577ab44c7997" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Window' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5a927b94061fb1995e4de39066a28d6d.png" xmlns="">0IamaDOhEmESitHOnJTtH8Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

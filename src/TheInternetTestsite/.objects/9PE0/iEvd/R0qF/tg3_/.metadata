@@ -1,0 +1,13 @@
+﻿{
+  "Name": "New Window(1)",
+  "Type": "Element",
+  "Id": "tg3_vB39v0-ANOn3XeUS2Q",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/tg3_vB39v0-ANOn3XeUS2Q",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/R0qFeuas3Em1gCEFkV1spw",
+  "Created": "2026-02-05T20:55:45.1539751Z",
+  "Updated": "2026-02-05T20:55:45.1539751Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

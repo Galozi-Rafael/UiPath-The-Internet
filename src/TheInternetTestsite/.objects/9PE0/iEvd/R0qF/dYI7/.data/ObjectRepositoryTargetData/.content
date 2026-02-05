@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sjRQoO7SREqfil1AJPslaQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/windows/new" CVScreenId="0722840c-adc3-4b92-af47-7674b1070f27" CvElementArea="522, 12, 236, 39" CvType="Button" DesignTimeRectangle="726, 14, 28, 28" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='New Window - Google Chrome' role='pane' /&gt;&lt;ctrl name='New Window' role='page tab' /&gt;&lt;ctrl name='Fechar' role='push button' /&gt;" Guid="880e8165-cf04-4588-9b11-a51dfbaab22d" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='New Window - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0722840c-adc3-4b92-af47-7674b1070f27" CvElementArea="522, 12, 236, 39" CvTextArea="555, 22, 73, 12" CvTextArgument="New Window" CvType="Button" DesignTimeRectangle="512, 8, 256, 41" ElementType="TabPage" FuzzySelectorArgument="&lt;ctrl name='New Window - Google Chrome' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='New Window' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='New Window' /&gt;" Guid="ed398878-d31c-40bd-b32d-4eb4b6fad967" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dc03447311d0fd233ddbc371f2fbed0f.png" xmlns="">0G3EH5cPNfEmjadmPVUJgIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
