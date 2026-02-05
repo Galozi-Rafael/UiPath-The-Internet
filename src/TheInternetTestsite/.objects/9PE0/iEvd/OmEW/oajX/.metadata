@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Uncaught TypeError Can…",
+  "Type": "Element",
+  "Id": "oajX8mesfUiudr5RRVwOBg",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/oajX8mesfUiudr5RRVwOBg",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/OmEWeo_8uU2YeewWTTPH4w",
+  "Created": "2026-02-05T21:41:45.3022014Z",
+  "Updated": "2026-02-05T21:41:45.3022014Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

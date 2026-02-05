@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Page with JavaScript errors on load",
+  "Type": "Screen",
+  "Id": "PB3kTt8V1kaFH1ekBpnTSw",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/PB3kTt8V1kaFH1ekBpnTSw",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/iEvd2cfrbUirbedS07_TJA",
+  "Created": "2026-02-05T21:44:38.6519308Z",
+  "Updated": "2026-02-05T21:44:38.6519308Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

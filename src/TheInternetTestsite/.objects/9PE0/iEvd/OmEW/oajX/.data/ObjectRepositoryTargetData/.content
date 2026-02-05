@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0EctIiEZJ02Nt79mOFa7Gg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/javascript_error" DesignTimeRectangle="1329, 231, 573, 58" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='DevTools' role='document' /&gt;&lt;ctrl name='Console panel' role='property page' /&gt;&lt;ctrl name='console' role='grouping' /&gt;&lt;ctrl name='Uncaught TypeError: Cannot read properties of undefined (reading*' role='grouping' /&gt;&lt;ctrl name='javascript_error:7 Uncaught Stack table collapsed' role='grouping' /&gt;&lt;ctrl role='grouping' /&gt;" Guid="c355c845-314b-4bf7-9132-76b74ac4bac3" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Page with JavaScript errors on load - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3709ebdf24ceb172af1b3dc7cd9588f9.png" xmlns="">04fcLn0TXc0SKvLvgeNflKQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
