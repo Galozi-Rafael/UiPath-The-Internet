@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Infinite Scroll",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "WVE4g7gGWkq3553Cgum-AA",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/WVE4g7gGWkq3553Cgum-AA",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/amlegg5jq0mWZu58ikz5WA",
+  "Created": "2026-02-05T13:28:10.0427851Z",
+  "Updated": "2026-02-05T13:28:10.0427851Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

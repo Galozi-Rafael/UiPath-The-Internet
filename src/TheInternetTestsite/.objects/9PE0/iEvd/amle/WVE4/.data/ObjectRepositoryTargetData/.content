@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Qbfmihqetk6rWknM7V8ghQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mail.yahoo.com/n/folders/1" CVScreenId="c34e593c-0f0f-42dc-9ff0-4ec1dfb69fbb" CvTextArea="476, 222, 170, 25" CvTextArgument="Infinite Scroll" CvType="Text" DesignTimeRectangle="476, 218, 970, 38" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="2dd8a232-63fb-40be-95d2-841c956f6d22" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="752c2d342480ec71688d83aa305af5d0.png" xmlns="">0mvXBk79iX0qnHL9xSpyuNg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

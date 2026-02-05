@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iGPd9HBRe0CimPhRL4MGWQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/infinite_scroll" DesignTimeRectangle="461, 218, 1000, 3264" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='row' parentid='content' tag='DIV' /&gt;" Guid="b90c3bda-041e-42cd-9774-3bbcc01c7aee" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8abf8d92a7be9e0fd9a8bd7ae1fedefa.png" xmlns="">0ctIqkMIoNkWhUXRNMfjjDQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome The Internet(23)",
+  "Type": "Screen",
+  "Id": "amlegg5jq0mWZu58ikz5WA",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/amlegg5jq0mWZu58ikz5WA",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/iEvd2cfrbUirbedS07_TJA",
+  "Created": "2026-02-05T13:25:08.4447761Z",
+  "Updated": "2026-02-05T13:25:08.4447761Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
