@@ -1,0 +1,14 @@
+﻿{
+  "Name": "iFrame",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "iG6Mk6emokqufxq-xmWMJg",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/iG6Mk6emokqufxq-xmWMJg",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/ZbPo6aokckmeMCQIDxpang",
+  "Created": "2026-02-04T23:00:30.2695972Z",
+  "Updated": "2026-02-04T23:00:30.2695972Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

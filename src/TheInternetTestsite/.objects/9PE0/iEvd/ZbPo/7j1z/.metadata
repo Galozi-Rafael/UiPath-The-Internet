@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Voltar",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "7j1z2zC-DUOO-gG91IUPeg",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/7j1z2zC-DUOO-gG91IUPeg",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/ZbPo6aokckmeMCQIDxpang",
+  "Created": "2026-02-04T23:04:24.6816672Z",
+  "Updated": "2026-02-04T23:04:24.6816672Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

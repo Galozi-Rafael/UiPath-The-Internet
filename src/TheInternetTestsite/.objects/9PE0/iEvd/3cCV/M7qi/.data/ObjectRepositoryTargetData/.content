@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zXib_t4reEWZ6zblO5Vqlw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/nested_frames" CVScreenId="9491c1bc-79bc-4cfb-849c-696cbc16e470" CvType="AnyWordGroup" DesignTimeRectangle="16, 189, 620, 410" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl name='frame-top' tag='FRAME' /&gt;&lt;webctrl name='frame-left' tag='FRAME' /&gt;&lt;webctrl tag='BODY' /&gt;" Guid="b5e55b64-0a76-4278-8d07-6350b10ae69a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='the-internet.herokuapp.com/nested_frames' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2d7a1f3f962ea77a83aa8764ba91d2e6.png" xmlns="">0VBoWTPHSSk-BP137OGpEgQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

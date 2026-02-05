@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rYLprBEkBkeRxfg3KKFTUw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/nested_frames" CVScreenId="15d41a40-a329-4900-86a3-3fddbcf7be93" CvElementArea="486, 347, 963, 104" CvType="InputBox" DesignTimeRectangle="500, 365, 936, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='mce_0_ifr' tag='IFRAME' /&gt;&lt;webctrl tag='P' /&gt;" Guid="a50f9061-49b9-4012-a64c-9d09d28fd02e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="483, 270, 970, 200" FuzzySelectorArgument="&lt;webctrl aria-role='application' tag='DIV' type='' class='tox tox-tinymce tox-tinymce--disabled' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='File&amp;#xA;Edit&amp;#xA;View&amp;#xA;Format&amp;#xA;Paragraph&amp;#xA;POWERED BY TINY' /&gt;" Guid="dd6a95d6-3a26-4cc9-986e-1992f75b4cc5" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e6ac5718153dd2072ad07ace92eeb38f.png" xmlns="">0geT0RJt0jE6Ckq9tQKt7Zw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

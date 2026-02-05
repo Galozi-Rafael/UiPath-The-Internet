@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Fi66BVSh5E2jsPsQtYG4vw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/nested_frames" DesignTimeRectangle="641, 353, 654, 67" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='alert' tag='DIV' /&gt;" Guid="31ed6975-169e-4732-82de-a5c524d0ad86" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b166f02d631de4f2f4612dd0caae9d48.png" xmlns="">0NZIGOMqPz0utx1WM574oFg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

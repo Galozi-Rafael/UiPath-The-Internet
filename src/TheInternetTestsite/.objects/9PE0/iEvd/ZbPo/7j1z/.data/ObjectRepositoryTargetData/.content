@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ViOSkjTgA0KsuNZnORqV_A" Reference="hgpIwYCmKUK6UuG-Vvg7vw/7j1z2zC-DUOO-gG91IUPeg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/frames" DesignTimeRectangle="8, 54, 39, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='The Internet - Google Chrome' role='pane' /&gt;&lt;ctrl name='Voltar' role='push button' /&gt;" Guid="1958703d-c87b-4e59-974e-ae70fa8083fc" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e014f19c1f8cb3e718335b704082cbcc.png" xmlns="">05Tft2frOR0qOLuVtqh7TmA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

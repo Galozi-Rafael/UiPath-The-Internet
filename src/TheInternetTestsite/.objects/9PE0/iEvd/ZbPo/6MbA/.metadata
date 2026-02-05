@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Nested Frames",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "6MbAQsMWYEaiq0CiVxK9JQ",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/6MbAQsMWYEaiq0CiVxK9JQ",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/ZbPo6aokckmeMCQIDxpang",
+  "Created": "2026-02-04T23:00:02.132932Z",
+  "Updated": "2026-02-04T23:00:02.132932Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

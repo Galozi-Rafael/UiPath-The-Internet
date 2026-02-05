@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="W5A5aJpOJkGD-26Pu93vXw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/nested_frames" CVScreenId="9491c1bc-79bc-4cfb-849c-696cbc16e470" CvTextArea="656, 190, 65, 14" CvTextArgument="MIDDLE" CvType="Text" DesignTimeRectangle="658, 189, 620, 410" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl name='frame-top' tag='FRAME' /&gt;&lt;webctrl name='frame-middle' tag='FRAME' /&gt;&lt;webctrl tag='BODY' /&gt;" Guid="839ef641-2fbd-43a6-abe3-30fbfb858b22" ScopeSelectorArgument="&lt;html app='chrome.exe' title='the-internet.herokuapp.com/nested_frames' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="19217ea380ca7c4a5561d1add29685c6.png" xmlns="">0MqC5jlPQxUmejCB09L1tNA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

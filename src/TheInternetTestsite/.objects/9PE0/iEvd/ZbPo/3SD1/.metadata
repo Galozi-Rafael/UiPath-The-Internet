@@ -1,0 +1,13 @@
+﻿{
+  "Name": "TinyMCE is in read-only…",
+  "Type": "Element",
+  "Id": "3SD1DGinrEW4UepK-tzBjw",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/3SD1DGinrEW4UepK-tzBjw",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/ZbPo6aokckmeMCQIDxpang",
+  "Created": "2026-02-05T02:32:16.0589786Z",
+  "Updated": "2026-02-05T02:32:16.0589786Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

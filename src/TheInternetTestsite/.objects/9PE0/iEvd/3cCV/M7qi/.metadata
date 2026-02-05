@@ -1,0 +1,13 @@
+﻿{
+  "Name": "LEFT",
+  "Type": "Element",
+  "Id": "M7qi1SfB_UaZoRa-dffiMw",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/M7qi1SfB_UaZoRa-dffiMw",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/3cCVTvo3-E2PD-xVWldbEQ",
+  "Created": "2026-02-05T02:22:15.0320178Z",
+  "Updated": "2026-02-05T02:22:15.0320178Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
