@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Action successful ×",
+  "Type": "Element",
+  "Id": "Hn14h1LM8kKEf4Vfl1P7uA",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/Hn14h1LM8kKEf4Vfl1P7uA",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/PMU4aLo2kUq5y8wD-Xe7bg",
+  "Created": "2026-02-05T22:35:41.4445516Z",
+  "Updated": "2026-02-05T22:35:41.4445516Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
