@@ -1,0 +1,14 @@
+﻿{
+  "Name": "You entered F1",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Xct66j040kGNOuqLC_dozA",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/Xct66j040kGNOuqLC_dozA",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/OmEWeo_8uU2YeewWTTPH4w",
+  "Created": "2026-02-05T21:53:16.5401072Z",
+  "Updated": "2026-02-05T21:53:16.5401072Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
