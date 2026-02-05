@@ -52,9 +52,9 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] 24. Horizontal Slider
 - [x] 25. Hovers
 - [x] 26. Infinite Scroll
-- [ ] 27. Inputs
-- [ ] 28. JQuery UI Menus
-- [ ] 29. JavaScript Alerts
+- [x] 27. Inputs
+- [x] 28. JQuery UI Menus
+- [x] 29. JavaScript Alerts
 - [ ] 30. JavaScript onload event error
 - [ ] 31. Key Presses
 - [ ] 32. Large & Deep DOM
