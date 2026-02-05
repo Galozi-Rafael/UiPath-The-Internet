@@ -55,8 +55,8 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] 27. Inputs
 - [x] 28. JQuery UI Menus
 - [x] 29. JavaScript Alerts
-- [ ] 30. JavaScript onload event error
-- [ ] 31. Key Presses
+- [x] 30. JavaScript onload event error
+- [x] 31. Key Presses
 - [ ] 32. Large & Deep DOM
 - [x] 33. Multiple Windows
 - [x] 34. Nested Frames - Em Frames
