@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YGYQSYponEetGE9RGnCDcQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/inputs" CVScreenId="590a3376-5158-4c36-8f0c-d3237aafda4e" CvElementArea="732, 313, 472, 35" CvType="InputBox" DesignTimeRectangle="733, 315, 470, 33" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='number' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="65a229a6-740b-4959-8735-c48f987139b3" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="590a3376-5158-4c36-8f0c-d3237aafda4e" CvTextArea="732, 274, 59, 15" CvTextArgument="Number" CvType="Text" DesignTimeRectangle="733, 270, 470, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='' aaname='Number' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Number' /&gt;" Guid="685ca096-4f12-4249-ac39-0b8805b729da" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f5c5e81d231fdc06a93c9a4c04d7543f.png" xmlns="">0PHqfug2NMUaHGWEePKiZGw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
