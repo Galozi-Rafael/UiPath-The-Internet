@@ -60,7 +60,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] 32. Large & Deep DOM
 - [x] 33. Multiple Windows
 - [x] 34. Nested Frames - Em Frames
-- [ ] 35. Notification Messages
+- [x] 35. Notification Messages
 - [ ] 36. Redirect Link
 - [ ] 37. Secure File Download
 - [ ] 38. Shadow DOM
