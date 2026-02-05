@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-AWXCzQIc0OMq0KZ-3euNg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/javascript_alerts" CVScreenId="31c840bb-3a88-497b-8e5a-acd1a2f0732c" CvType="AnyWordGroup" DesignTimeRectangle="483, 574, 970, 26" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='result' tag='P' /&gt;" Guid="13250b26-56ed-430f-96e4-27613b179dc2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5c4594a1cfd435410996e17c2e4503aa.png" xmlns="">0ZJS98n4tT0qFqLPMTc9EqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

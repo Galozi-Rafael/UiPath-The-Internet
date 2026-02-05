@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="agMg6fKtlk-5_S2oPK2oyA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/javascript_alerts" CVScreenId="4a9876f0-386d-4ee6-87e8-7e584458a8b3" CvElementArea="995, 230, 89, 41" CvTextArea="1028, 244, 21, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="998, 231, 83, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" Guid="b2cd14ba-8623-473a-9f9f-cee19c707771" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a052cbf998145672d6a9305908d9e5e3.png" xmlns="">06N8NndHqhEuH7w3RLhC9pQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

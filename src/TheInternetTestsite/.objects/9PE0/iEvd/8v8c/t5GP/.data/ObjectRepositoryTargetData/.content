@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XIQQYCbElEOXvegF82euKQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/javascript_alerts" DesignTimeRectangle="737, 86, 462, 212" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' /&gt;&lt;ctrl idx='2' role='pane' /&gt;" Guid="0cd85188-0ebc-4ef6-83e6-2d378029c78c" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2f3a59e8ec9428fbd06d1bc615d3ddd0.png" xmlns="">0zz4IbcLpf02fFUb0D7c66w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

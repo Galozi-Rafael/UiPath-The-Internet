@@ -1,0 +1,337 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="JavaScriptAlerts" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="JavaScriptAlerts_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="JavaScriptAlerts" sap:VirtualizedContainerService.HintSize="1281,1877" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="jsAlertText" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Sequence - JavaScript Alerts" sap:VirtualizedContainerService.HintSize="556,1854" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Chrome The Internet(26)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="522,1771" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,1577" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Sequence DisplayName="Sequence - Click for JS Alert" sap:VirtualizedContainerService.HintSize="486,61" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click for JS Alert'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/javascript_alerts" CVScreenId="31c840bb-3a88-497b-8e5a-acd1a2f0732c" CvElementArea="481, 313, 183, 48" CvTextArea="506, 329, 132, 16" CvTextArgument="Click for JS Alert" CvType="Button" DesignTimeRectangle="483, 315, 178, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="b8afb69b-106b-4bab-86de-990efe1499fd" InformativeScreenshot="54b375de62ef4c72c90e7e2cecd59287.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NCheckState DisplayName="Check App State 'the-internet.herokuapp.…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" Version="V5">
+                  <uix:NCheckState.IfExists>
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NGetText DisplayName="Get Text 'I am a JS Alert'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,147" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" ScrapingMethod="Fulltext" TextString="[jsAlertText]" Version="V5">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/javascript_alerts" CVScreenId="7a45815c-7498-4b37-abd7-9848daf2dc57" ContentHash="9u8XF4yTWkmBjiWWijAT2w" CvType="AnyWordGroup" DesignTimeRectangle="764, 143, 408, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl role='text' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="bd84e4d9-bf11-476a-a051-6ddb0cd28b89" InformativeScreenshot="f816585e3da99deb48bd26b0527ce7ca.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/fAuasvpyrU2PVCmpJOoo8g" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/javascript_alerts" CVScreenId="7a45815c-7498-4b37-abd7-9848daf2dc57" ContentHash="t1joNjaeWUy4wfJj_jOj-A" CvElementArea="1101, 173, 77, 50" CvTextArea="1129, 192, 21, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1108, 179, 64, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" Guid="8d0f27fb-75f9-4274-b549-b079febe1412" InformativeScreenshot="0e1743efa046d996d801bd6eaf5c94c0.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/624TO7KzA0qU0vyKQFjF9Q" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[jsAlertText]" />
+                    </Sequence>
+                  </uix:NCheckState.IfExists>
+                  <uix:NCheckState.IfNotExists>
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Alerta não apareceu.&quot;]" />
+                    </Sequence>
+                  </uix:NCheckState.IfNotExists>
+                  <uix:NCheckState.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/javascript_alerts" ContentHash="u58PaIlzFk-q4aJySNZT6g" DesignTimeRectangle="737, 86, 462, 160" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' /&gt;&lt;ctrl idx='2' role='pane' /&gt;" Guid="2d998986-b4c4-4d95-ac33-a9ff84ea16e0" InformativeScreenshot="5021da5715647d1ae7a2673eff7e8d1d.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/t5GPiYtZWUyN2D1XSUQQaQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NCheckState.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NCheckState>
+              </Sequence>
+              <Sequence DisplayName="Sequence - Click for JS Confirm" sap:VirtualizedContainerService.HintSize="486,1400" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click for JS Confirm'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/javascript_alerts" CVScreenId="31c840bb-3a88-497b-8e5a-acd1a2f0732c" CvElementArea="481, 378, 207, 48" CvTextArea="507, 393, 156, 17" CvTextArgument="Click for JS Confirm" CvType="Button" DesignTimeRectangle="483, 380, 204, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Click for JS Confirm' tag='BUTTON' /&gt;" Guid="be3990d8-cb4b-4b42-a5ee-7c944a501b60" InformativeScreenshot="d80644d0d24d05e88de5cb354003615b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NCheckState DisplayName="Check App State 'the-internet.herokuapp.…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1102" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" Version="V5">
+                  <uix:NCheckState.IfExists>
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,579" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:String" Name="jsConfirmText" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NGetText DisplayName="Get Text 'I am a JS Confirm'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,147" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" ScrapingMethod="Fulltext" TextString="[jsConfirmText]" Version="V5">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/javascript_alerts" CVScreenId="4abf829c-a618-49a7-9d19-3478524cf0b3" ContentHash="eOQlsJmdFUCrQ7zlmKLmBA" CvType="AnyWordGroup" DesignTimeRectangle="764, 143, 408, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl role='text' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="fb39868b-9b5a-407c-8ca0-20f69934a2e4" InformativeScreenshot="68460da113efed161e53e148712861c9.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/fAuasvpyrU2PVCmpJOoo8g" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/javascript_alerts" CVScreenId="4abf829c-a618-49a7-9d19-3478524cf0b3" ContentHash="-NidYqlIiEeCNQAzuuFOFQ" CvElementArea="991, 174, 96, 49" CvTextArea="1028, 192, 21, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="998, 179, 83, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" Guid="a4c4a72f-8d2d-4bbc-b2b8-56b04379f8cb" InformativeScreenshot="afad44d0e15fb6146949e9a3510fdceb.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/624TO7KzA0qU0vyKQFjF9Q" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[jsConfirmText]" />
+                    </Sequence>
+                  </uix:NCheckState.IfExists>
+                  <uix:NCheckState.IfNotExists>
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Alerta não apareceu.&quot;]" />
+                    </Sequence>
+                  </uix:NCheckState.IfNotExists>
+                  <uix:NCheckState.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/javascript_alerts" ContentHash="n3h3jTzKlUCIuUgPQoYicA" DesignTimeRectangle="737, 86, 462, 160" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' /&gt;&lt;ctrl idx='2' role='pane' /&gt;" Guid="08d73497-9cb3-4e35-8c35-c70caec36d5d" InformativeScreenshot="8cde678e96845226ebc5bfb7c2f98eea.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/t5GPiYtZWUyN2D1XSUQQaQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NCheckState.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NCheckState>
+              </Sequence>
+              <Sequence DisplayName="Sequence - Click for JS Prompt" sap:VirtualizedContainerService.HintSize="486,52" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click for JS Prompt'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/javascript_alerts" CVScreenId="f9569853-4f34-45f6-aa13-4af138e9a003" ContentHash="DPSkBEHKGE6WtzCwV9kyaQ" CvElementArea="481, 444, 201, 48" CvTextArea="506, 458, 153, 20" CvTextArgument="Click for JS Prompt" CvType="Button" DesignTimeRectangle="483, 445, 198, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Click for JS Prompt' tag='BUTTON' /&gt;" Guid="5ee49576-5bf0-45f7-aab4-404a5ad110c2" InformativeScreenshot="0d876384a0b37d83afc1c1eb49937e0a.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/chZiolbBakWBIX3kR7Msew" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NCheckState DisplayName="Check App State 'the-internet.herokuapp.…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1678" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" Version="V5">
+                  <uix:NCheckState.IfExists>
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,1155" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:String" Name="jsPromptText" />
+                        <Variable x:TypeArguments="x:String" Name="resultText" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NGetText DisplayName="Get Text 'I am a JS Prompt'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,147" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" ScrapingMethod="Fulltext" TextString="[jsPromptText]" Version="V5">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/javascript_alerts" CVScreenId="4a9876f0-386d-4ee6-87e8-7e584458a8b3" ContentHash="PYd5We684EijAEGwMWab9Q" CvType="AnyWordGroup" DesignTimeRectangle="744, 143, 448, 20" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' /&gt;&lt;ctrl idx='9' role='pane' /&gt;" Guid="afcd08f1-f248-4dea-8af5-806eb8149554" InformativeScreenshot="6ddcc8148f9fe1ee6f0b9d02a936a26d.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/fAuasvpyrU2PVCmpJOoo8g" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'pane'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" Text="Test" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/javascript_alerts" CVScreenId="4a9876f0-386d-4ee6-87e8-7e584458a8b3" ContentHash="7DFVXHJsmE2wxe9sDyhOHg" CvElementArea="762, 169, 410, 40" CvType="InputBox" DesignTimeRectangle="764, 171, 408, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='I am a JS prompt' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="49ed2ff8-83de-4e37-ba73-b0385771af42" InformativeScreenshot="9c7d9912028deff84d246aca3aea54e2.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/n2HD4Xx560icCAom-5R9LQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="4a9876f0-386d-4ee6-87e8-7e584458a8b3" CvTextArea="763, 147, 98, 15" CvTextArgument="I am a JS prompt" CvType="Text" DesignTimeRectangle="744, 143, 448, 20" FullSelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' /&gt;&lt;ctrl idx='9' role='pane' /&gt;" Guid="594f7da3-69af-4c3c-ae37-adefc953e7c4" SearchSteps="Selector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/javascript_alerts" CVScreenId="4a9876f0-386d-4ee6-87e8-7e584458a8b3" ContentHash="agMg6fKtlk-5_S2oPK2oyA" CvElementArea="995, 230, 89, 41" CvTextArea="1028, 244, 21, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="998, 231, 83, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" Guid="b2cd14ba-8623-473a-9f9f-cee19c707771" InformativeScreenshot="a052cbf998145672d6a9305908d9e5e3.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/624TO7KzA0qU0vyKQFjF9Q" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[jsPromptText]" />
+                      <uix:NGetText DisplayName="Get Text 'You entered test'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,147" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="70b721fe-2c91-44c0-b9ef-842e1ee7da3d" TextString="[resultText]" Version="V5">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/javascript_alerts" CVScreenId="31c840bb-3a88-497b-8e5a-acd1a2f0732c" ContentHash="-AWXCzQIc0OMq0KZ-3euNg" CvType="AnyWordGroup" DesignTimeRectangle="483, 574, 970, 26" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='result' tag='P' /&gt;" Guid="13250b26-56ed-430f-96e4-27613b179dc2" InformativeScreenshot="5c4594a1cfd435410996e17c2e4503aa.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/D1rdhKOpEUSbtTiny7qWdQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[resultText]" />
+                    </Sequence>
+                  </uix:NCheckState.IfExists>
+                  <uix:NCheckState.IfNotExists>
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Alerta não apareceu.&quot;]" />
+                    </Sequence>
+                  </uix:NCheckState.IfNotExists>
+                  <uix:NCheckState.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/javascript_alerts" ContentHash="XIQQYCbElEOXvegF82euKQ" DesignTimeRectangle="737, 86, 462, 212" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' /&gt;&lt;ctrl idx='2' role='pane' /&gt;" Guid="0cd85188-0ebc-4ef6-83e6-2d378029c78c" InformativeScreenshot="2f3a59e8ec9428fbd06d1bc615d3ddd0.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/t5GPiYtZWUyN2D1XSUQQaQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NCheckState.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NCheckState>
+              </Sequence>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.OCREngine>
+          <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+            <ActivityFunc.Argument>
+              <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+            </ActivityFunc.Argument>
+          </ActivityFunc>
+        </uix:NApplicationCard.OCREngine>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="rPbova9aXUuBDKlWaSgfgg" IconBase64="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" InformativeScreenshot="f0749a43f05538ed4b48ac89df1e350a.jpg" Reference="hgpIwYCmKUK6UuG-Vvg7vw/8v8ckMK8b0S15VpOXDs0Bw" Selector="&lt;html app='chrome.exe' title='The Internet' /&gt;" Url="https://the-internet.herokuapp.com/javascript_alerts" Version="V2">
+            <uix:TargetApp.Arguments>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.Arguments>
+            <uix:TargetApp.WorkingDirectory>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.WorkingDirectory>
+          </uix:TargetApp>
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

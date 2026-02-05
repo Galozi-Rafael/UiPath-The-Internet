@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7DFVXHJsmE2wxe9sDyhOHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/javascript_alerts" CVScreenId="4a9876f0-386d-4ee6-87e8-7e584458a8b3" CvElementArea="762, 169, 410, 40" CvType="InputBox" DesignTimeRectangle="764, 171, 408, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='I am a JS prompt' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="49ed2ff8-83de-4e37-ba73-b0385771af42" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4a9876f0-386d-4ee6-87e8-7e584458a8b3" CvTextArea="763, 147, 98, 15" CvTextArgument="I am a JS prompt" CvType="Text" DesignTimeRectangle="744, 143, 448, 20" FullSelectorArgument="&lt;ctrl name='the-internet.herokuapp.com diz' role='dialog' /&gt;&lt;ctrl idx='9' role='pane' /&gt;" Guid="594f7da3-69af-4c3c-ae37-adefc953e7c4" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9c7d9912028deff84d246aca3aea54e2.png" xmlns="">0iDbeMNfPVkS5DGxmiwLBaA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
