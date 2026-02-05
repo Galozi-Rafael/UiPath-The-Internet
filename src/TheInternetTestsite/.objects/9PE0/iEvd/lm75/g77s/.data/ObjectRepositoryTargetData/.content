@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MYfZCEPHfkSMfeSJihWE5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/geolocation" CVScreenId="1574c9e4-ed58-458f-98d1-aa1312c4ec78" CvTextArea="482, 427, 121, 18" CvTextArgument="See it on Google" CvType="Text" DesignTimeRectangle="483, 427, 119, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='map-link' tag='A' /&gt;" Guid="abf5da7b-5667-437c-9a84-6a4a20bb3d46" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e16f8e27e4850ed632650d9f1916d538.png" xmlns="">0K8NBUMrnyE-8aHnTqKs6WA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

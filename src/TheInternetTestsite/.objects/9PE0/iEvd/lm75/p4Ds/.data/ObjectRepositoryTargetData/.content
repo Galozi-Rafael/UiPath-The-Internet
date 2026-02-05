@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pSl1C8SxhEuoFli7XqBubw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/geolocation" CVScreenId="1f2a25ae-77e0-4f1b-9efb-48b35422f631" CvElementArea="24, 171, 284, 40" CvTextArea="113, 185, 107, 13" CvTextArgument="Permitir desta vez" CvType="Button" DesignTimeRectangle="27, 173, 280, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='the-internet.herokuapp.com quer Saber sua localização' role='dialog' /&gt;&lt;ctrl name='Permitir desta vez' role='push button' /&gt;" Guid="ee549a8e-bcbc-48bc-a8f2-65c76a922bfe" ScopeSelectorArgument="&lt;wnd aaname='the-internet.herokuapp.com quer Saber sua localização' app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com quer' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5147801ba00528e8808117317a68a576.png" xmlns="">0TWJpQYPpvUe0wvdXQU6A0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

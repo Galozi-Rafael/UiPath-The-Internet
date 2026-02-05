@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tSHcnBRje0S5hkpqrjUmtg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/geolocation" DesignTimeRectangle="0, 0, 334, 286" ElementVisibilityArgument="Interactive" Guid="04292650-6a6d-4ea4-bc86-e125c619cd5d" ScopeSelectorArgument="&lt;wnd aaname='the-internet.herokuapp.com quer Saber sua localização' app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com quer' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="45f6fa48b0172c5433139bb6f4abd411.png" xmlns="">06-T7MnZCl0-Q7jb5xJVJ0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

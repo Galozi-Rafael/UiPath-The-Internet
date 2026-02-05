@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Longitude",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "mRevLmMWA0W2cttgiH-fqw",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/mRevLmMWA0W2cttgiH-fqw",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/lm75djI0gEGdbViCRsLCDg",
+  "Created": "2026-02-05T12:52:58.2269309Z",
+  "Updated": "2026-02-05T12:52:58.2269309Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CT4_GrTmokWV3QFbgiQURw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/geolocation" CVScreenId="1574c9e4-ed58-458f-98d1-aa1312c4ec78" CvType="AnyWordGroup" DesignTimeRectangle="483, 372, 970, 26" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='long-value' tag='DIV' /&gt;" Guid="6697fe5f-38c0-4743-845a-09214607f4f3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1574c9e4-ed58-458f-98d1-aa1312c4ec78" CvTextArea="482, 350, 75, 19" CvTextArgument="Longitude:" CvType="Text" DesignTimeRectangle="482, 350, 75, 18" ElementType="Text" Guid="4d24303f-51cf-4494-ad0a-e3921cfce87a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="949d196599eec0edcb4d47701556e5b1.png" xmlns="">0fy7srl6URE6aulR8zlsEhw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

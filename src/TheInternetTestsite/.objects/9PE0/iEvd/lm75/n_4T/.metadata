@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Latitude",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "n_4TYgAOaEeTXc18xa-WmA",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/n_4TYgAOaEeTXc18xa-WmA",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/lm75djI0gEGdbViCRsLCDg",
+  "Created": "2026-02-05T12:52:32.598864Z",
+  "Updated": "2026-02-05T12:52:32.598864Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

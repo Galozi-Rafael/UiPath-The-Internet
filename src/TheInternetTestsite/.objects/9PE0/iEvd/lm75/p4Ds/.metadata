@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Permitir desta vez",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "p4Dsb6mOWUCiBj0Tm5JgVQ",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/p4Dsb6mOWUCiBj0Tm5JgVQ",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/lm75djI0gEGdbViCRsLCDg",
+  "Created": "2026-02-05T12:51:31.9969116Z",
+  "Updated": "2026-02-05T12:51:31.9969116Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

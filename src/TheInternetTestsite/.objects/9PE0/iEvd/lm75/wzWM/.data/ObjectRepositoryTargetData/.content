@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xlEi6Ox58E2GwmAPAqEJjg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/geolocation" CVScreenId="48fbfb38-7155-45a7-a22d-c26c339b1666" CvElementArea="481, 313, 149, 49" CvTextArea="505, 329, 99, 15" CvTextArgument="Where am I?" CvType="Button" DesignTimeRectangle="483, 315, 145, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="b1df925b-cd1f-4e0d-ba60-c5dd31c2759c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="62b63ea0876289d2ea839a33c54b890f.png" xmlns="">0OZFewcg5NEm9GsbzfnCWJw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
