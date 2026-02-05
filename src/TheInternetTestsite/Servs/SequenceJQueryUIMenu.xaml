@@ -1,0 +1,254 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SequenceJQueryUIMenu" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="SequenceJQueryUIMenu_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="SequenceJQueryUIMenu" sap:VirtualizedContainerService.HintSize="1281,4585" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="JQueryText" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap2010:Annotation.AnnotationText="Trata da lógica para JQueryUI - Menu." DisplayName="Sequence - JQueryUI - Menu" sap:VirtualizedContainerService.HintSize="520,4562" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Chrome The Internet(25)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,4282" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,4079" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Sequence DisplayName="Sequence - PDF" sap:VirtualizedContainerService.HintSize="450,983" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NHover DelayBefore="1" DisplayName="Hover 'Enabled'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NHover_3" InteractionMode="SameAsCard" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V5">
+                  <uix:NHover.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui/menu" CVScreenId="9404439b-5224-4f08-aee0-a532338892d5" ContentHash="uKkvGSespEup2EGQaavMaQ" CvElementArea="615, 482, 15, 18" CvTextArea="492, 488, 72, 17" CvTextArgument="Enabled" CvType="ArrowButton" DesignTimeRectangle="486, 482, 144, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ui-id-3' tag='A' /&gt;" Guid="e5f3f12a-a1a4-409a-aedc-b017d7777fd9" InformativeScreenshot="c6766e7d9c82ec974325b5306fe54a65.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/YQVR3Bd9AES82xrgGtNWzQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NHover.Target>
+                </uix:NHover>
+                <uix:NHover DisplayName="Hover 'Downloads'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NHover_4" InteractionMode="SameAsCard" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V5">
+                  <uix:NHover.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui/menu" CVScreenId="a5636631-ad5c-42f8-b2ce-c2b5eb6f0a06" ContentHash="Sqhh07WbZk6o4TIEVW5Rbw" CvElementArea="760, 485, 16, 18" CvTextArea="639, 492, 98, 17" CvTextArgument="Downloads" CvType="ArrowButton" DesignTimeRectangle="632, 485, 144, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ui-id-4' tag='A' /&gt;" Guid="d6c7c466-5d83-4434-bde9-f958f36dedf1" InformativeScreenshot="cd47b1dba8919cab30f64f3386530411.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/1gJ9-AOLI06IO60ecqKHZA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NHover.Target>
+                </uix:NHover>
+                <uix:NClick ActivateBefore="True" AlterIfDisabled="True" ClickType="Single" CursorMotionType="[UiPath.UIAutomationNext.Enums.CursorMotionType.Smooth]" DisplayName="Click 'PDF(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui/menu" CVScreenId="c272093d-444a-459f-8536-beea858dc4e8" ContentHash="e1jq4ZykGEy0esKeZzC8TA" CvTextArea="785, 496, 37, 16" CvTextArgument="PDF" CvType="Text" DesignTimeRectangle="778, 488, 144, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ui-id-5' tag='A' /&gt;" Guid="ac93023e-7372-4a67-ac3a-9bba4bf43d77" InformativeScreenshot="b125754c6206907334f2fd1efa829413.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/_xLFf1A02kKbaUopeNn4mw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancelar(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui/menu" CVScreenId="b9dd8e13-1960-4d9c-98ef-931824ae2c3d" ContentHash="RKJN0Akj2USa8BzJm3kFTg" CvElementArea="847, 489, 88, 26" CvTextArea="867, 495, 48, 12" CvTextArgument="Cancelar" CvType="Button" DesignTimeRectangle="847, 489, 88, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='2' title='Cancelar' /&gt;" Guid="f9a1395c-9d72-443c-9e0f-f7cb902ae637" InformativeScreenshot="56d9dbaa7f07069d4d4a3adadca9a504.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/hWf8ewoh-Ea7cdRX8L0rIw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Salvar como' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+              </Sequence>
+              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="450,127" sap2010:WorkflowViewState.IdRef="Delay_1" />
+              <Sequence DisplayName="Sequence - CSV" sap:VirtualizedContainerService.HintSize="450,987" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NHover DelayBefore="2" DisplayName="Hover 'Enabled'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" HoverTime="2" sap2010:WorkflowViewState.IdRef="NHover_5" InteractionMode="SameAsCard" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V5">
+                  <uix:NHover.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui/menu" CVScreenId="5e67e817-cf7d-4639-83e8-1089c82f1576" CvElementArea="615, 482, 15, 18" CvTextArea="492, 488, 72, 17" CvTextArgument="Enabled" CvType="ArrowButton" DesignTimeRectangle="486, 482, 144, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ui-id-3' tag='A' /&gt;" Guid="e949eccd-0af9-4128-9b74-a2c420a4dd42" InformativeScreenshot="c6766e7d9c82ec974325b5306fe54a65.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NHover.Target>
+                </uix:NHover>
+                <uix:NHover CursorMotionType="[UiPath.UIAutomationNext.Enums.CursorMotionType.Smooth]" DisplayName="Hover 'Downloads'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NHover_6" InteractionMode="SameAsCard" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V5">
+                  <uix:NHover.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui/menu" CVScreenId="81df9fa3-a812-4dc5-b8b4-5f67c1da12e6" CvElementArea="760, 485, 16, 18" CvTextArea="639, 492, 98, 17" CvTextArgument="Downloads" CvType="ArrowButton" DesignTimeRectangle="632, 485, 144, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ui-id-4' tag='A' /&gt;" Guid="f865a2b8-ecc9-478d-b02b-962fa22667e7" InformativeScreenshot="cd47b1dba8919cab30f64f3386530411.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NHover.Target>
+                </uix:NHover>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'CSV'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui/menu" CVScreenId="93796b95-767a-42c0-b782-a0e340a34ee9" CvTextArea="785, 526, 39, 16" CvTextArgument="CSV" CvType="Text" DesignTimeRectangle="779, 519, 142, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ui-id-6' tag='A' /&gt;" Guid="cbbd08b6-d7ec-4315-9df5-f76737610b8e" InformativeScreenshot="1f9d463480cadac6eb27645bb655aa97.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancelar(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui/menu" CVScreenId="b9dd8e13-1960-4d9c-98ef-931824ae2c3d" ContentHash="RKJN0Akj2USa8BzJm3kFTg" CvElementArea="847, 489, 88, 26" CvTextArea="867, 495, 48, 12" CvTextArgument="Cancelar" CvType="Button" DesignTimeRectangle="847, 489, 88, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='2' title='Cancelar' /&gt;" Guid="f9a1395c-9d72-443c-9e0f-f7cb902ae637" InformativeScreenshot="56d9dbaa7f07069d4d4a3adadca9a504.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/hWf8ewoh-Ea7cdRX8L0rIw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Salvar como' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+              </Sequence>
+              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="450,127" sap2010:WorkflowViewState.IdRef="Delay_2" />
+              <Sequence DisplayName="Sequence - EXCEL" sap:VirtualizedContainerService.HintSize="450,987" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NHover DelayBefore="2" DisplayName="Hover 'Enabled'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" HoverTime="2" sap2010:WorkflowViewState.IdRef="NHover_7" InteractionMode="SameAsCard" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V5">
+                  <uix:NHover.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui/menu" CVScreenId="a3023d24-cca1-44a2-afde-882df444401a" CvElementArea="485, 482, 146, 34" CvType="InputBox" DesignTimeRectangle="487, 483, 142, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ui-id-3' tag='A' /&gt;" Guid="263fe431-3c57-4197-b3d0-77d6405dc9d1" InformativeScreenshot="59c4f94fa75ac16228325994eaaa8a3d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NHover.Target>
+                </uix:NHover>
+                <uix:NHover DelayBefore="1" DisplayName="Hover 'Downloads'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NHover_8" InteractionMode="SameAsCard" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V5">
+                  <uix:NHover.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui/menu" CVScreenId="a3023d24-cca1-44a2-afde-882df444401a" CvElementArea="761, 485, 16, 17" CvTextArea="638, 491, 98, 17" CvTextArgument="Downloads" CvType="ArrowButton" DesignTimeRectangle="632, 485, 144, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ui-id-4' tag='A' /&gt;" Guid="e8650250-7dfd-4619-a261-a430a0372015" InformativeScreenshot="cd47b1dba8919cab30f64f3386530411.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NHover.Target>
+                </uix:NHover>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'EXCEL'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui/menu" CVScreenId="0423f834-a39c-4673-afcd-1a4e7af2d059" CvTextArea="785, 554, 46, 17" CvTextArgument="Excel" CvType="Text" DesignTimeRectangle="778, 548, 144, 31" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ui-id-7' tag='A' /&gt;" Guid="8c61400c-162c-4ab9-aac4-751d7adc7efa" InformativeScreenshot="ab6a7e4dbd365ebd6029adcb081f70da.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="0" DisplayName="Click 'Cancelar(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui/menu" CVScreenId="b9dd8e13-1960-4d9c-98ef-931824ae2c3d" ContentHash="RKJN0Akj2USa8BzJm3kFTg" CvElementArea="847, 489, 88, 26" CvTextArea="867, 495, 48, 12" CvTextArgument="Cancelar" CvType="Button" DesignTimeRectangle="847, 489, 88, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='2' title='Cancelar' /&gt;" Guid="f9a1395c-9d72-443c-9e0f-f7cb902ae637" InformativeScreenshot="56d9dbaa7f07069d4d4a3adadca9a504.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/hWf8ewoh-Ea7cdRX8L0rIw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Salvar como' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+              </Sequence>
+              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="450,127" sap2010:WorkflowViewState.IdRef="Delay_4" />
+              <Sequence sap:VirtualizedContainerService.HintSize="450,677" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NHover DisplayName="Hover 'Enabled'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NHover_9" InteractionMode="SameAsCard" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V5">
+                  <uix:NHover.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui/menu" CVScreenId="9404439b-5224-4f08-aee0-a532338892d5" ContentHash="uKkvGSespEup2EGQaavMaQ" CvElementArea="615, 482, 15, 18" CvTextArea="492, 488, 72, 17" CvTextArgument="Enabled" CvType="ArrowButton" DesignTimeRectangle="486, 482, 144, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ui-id-3' tag='A' /&gt;" Guid="e5f3f12a-a1a4-409a-aedc-b017d7777fd9" InformativeScreenshot="c6766e7d9c82ec974325b5306fe54a65.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/YQVR3Bd9AES82xrgGtNWzQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NHover.Target>
+                </uix:NHover>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BACK TO JQUERY UI'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui/menu" DesignTimeRectangle="633, 516, 142, 57" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ui-id-8' tag='A' /&gt;" Guid="510bcc28-7465-4c2a-badd-ea1cfd800034" InformativeScreenshot="8760432634fa65392f77a7561d3b1dd4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NGetText DisplayName="Get Text 'JQuery UI is many thing…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="fac4b4f4-c85b-435d-822c-571ff857cdd5" TextString="[JQueryText]" Version="V5">
+                  <uix:NGetText.Target>
+                    <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/jqueryui" CVScreenId="512a0767-bb45-4700-a10e-5f1e77747b48" ContentHash="l5va5FYr6UmAQVfz6noycw" CvType="AnyWordGroup" DesignTimeRectangle="483, 270, 970, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" Guid="754ec034-1a33-4bd9-8b55-823c722ba512" InformativeScreenshot="469ef1cf043972922827c0cb183832a8.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/X5Ir2d7_ikmPdoHTsKfoLA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NGetText.Target>
+                </uix:NGetText>
+              </Sequence>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.OCREngine>
+          <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+            <ActivityFunc.Argument>
+              <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+            </ActivityFunc.Argument>
+          </ActivityFunc>
+        </uix:NApplicationCard.OCREngine>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="mU-IuyvkS0mGI4DMPlfuqg" IconBase64="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" InformativeScreenshot="6dd06cd31abeb99d2854dc69ee157e6a.jpg" Reference="hgpIwYCmKUK6UuG-Vvg7vw/-eg7RdobTU6-ZmNgyE_QtQ" Selector="&lt;html app='chrome.exe' title='The Internet' /&gt;" Url="https://the-internet.herokuapp.com/jqueryui/menu#" Version="V2">
+            <uix:TargetApp.Arguments>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.Arguments>
+            <uix:TargetApp.WorkingDirectory>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.WorkingDirectory>
+          </uix:TargetApp>
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="486,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[JQueryText]" />
+    </Sequence>
+  </Sequence>
+</Activity>

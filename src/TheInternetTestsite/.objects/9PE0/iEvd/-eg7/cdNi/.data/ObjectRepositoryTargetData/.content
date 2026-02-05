@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UJ3_p3dVpk2-NtoalRv-4w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/jqueryui/menu" CVScreenId="01bf4ae1-4724-489d-86b8-728d14461710" CvElementArea="847, 489, 88, 26" CvTextArea="867, 495, 48, 12" CvTextArgument="Cancelar" CvType="Button" DesignTimeRectangle="847, 489, 88, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='2' title='Cancelar' /&gt;" Guid="85caad4f-7e64-476e-b609-7784625099df" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Salvar como' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3e82e474323d1d39c6a66786d13269c9.png" xmlns="">07KiTHCeQZE6uDmBbLgGpjw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

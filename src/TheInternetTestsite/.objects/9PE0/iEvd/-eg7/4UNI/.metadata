@@ -1,0 +1,14 @@
+﻿{
+  "Name": "PDF",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "4UNIcdG7HUiZsZF3SSnSkw",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/4UNIcdG7HUiZsZF3SSnSkw",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/-eg7RdobTU6-ZmNgyE_QtQ",
+  "Created": "2026-02-05T19:52:16.1084081Z",
+  "Updated": "2026-02-05T19:52:16.1084081Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

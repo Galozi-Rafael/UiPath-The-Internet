@@ -1,0 +1,14 @@
+﻿{
+  "Name": "JQuery UI is many thing…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "X5Ir2d7_ikmPdoHTsKfoLA",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/X5Ir2d7_ikmPdoHTsKfoLA",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/-eg7RdobTU6-ZmNgyE_QtQ",
+  "Created": "2026-02-05T20:12:38.8612428Z",
+  "Updated": "2026-02-05T20:12:38.8612428Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

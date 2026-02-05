@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Disabled",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "xyRbeM7_P0C9FBTfsIXZwA",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/xyRbeM7_P0C9FBTfsIXZwA",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/-eg7RdobTU6-ZmNgyE_QtQ",
+  "Created": "2026-02-05T19:49:19.9123553Z",
+  "Updated": "2026-02-05T19:49:19.9123553Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

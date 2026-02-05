@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Cancelar",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "cdNiHi6iXEm80XtCNCBP4w",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/cdNiHi6iXEm80XtCNCBP4w",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/-eg7RdobTU6-ZmNgyE_QtQ",
+  "Created": "2026-02-05T19:59:13.4921913Z",
+  "Updated": "2026-02-05T19:59:13.4921913Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
