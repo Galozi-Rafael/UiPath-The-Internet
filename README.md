@@ -57,7 +57,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] 29. JavaScript Alerts
 - [x] 30. JavaScript onload event error
 - [x] 31. Key Presses
-- [ ] 32. Large & Deep DOM
+- [x] 32. Large & Deep DOM
 - [x] 33. Multiple Windows
 - [x] 34. Nested Frames - Em Frames
 - [ ] 35. Notification Messages

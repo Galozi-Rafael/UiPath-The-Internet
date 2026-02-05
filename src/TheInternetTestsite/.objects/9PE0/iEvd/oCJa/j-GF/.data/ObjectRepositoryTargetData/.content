@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-ikaxO6Z2katTN9HYebLsw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com" CVScreenId="af7fe4d1-21a2-4fc1-b7b9-1b5749afd17f" CvTextArea="1135, 548, 32, 15" CvTextArgument="50.1" CvType="Text" DesignTimeRectangle="1135, 548, 32, 15" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="19eacdf2-af5f-4c07-991f-0b2c66bd4374" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="26051729bc409f3c9354453fc2226071.png" xmlns="">01w8G-DWFME-F3VRkzuAZbA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScroll</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
