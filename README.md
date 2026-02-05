@@ -59,7 +59,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [ ] 31. Key Presses
 - [ ] 32. Large & Deep DOM
 - [ ] 33. Multiple Windows
-- [ ] 34. Nested Frames
+- [x] 34. Nested Frames - Em Frames
 - [ ] 35. Notification Messages
 - [ ] 36. Redirect Link
 - [ ] 37. Secure File Download
@@ -69,5 +69,5 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [ ] 41. Sortable Data Tables
 - [ ] 42. Status Codes
 - [ ] 43. Typos
-- [ ] 44. WYSIWYG Editor
+- [x] 44. WYSIWYG Editor - Em Frames
 
