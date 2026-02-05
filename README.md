@@ -48,7 +48,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] 20. Forgot Password
 - [x] 21. Form Authentication
 - [x] 22. Frames
-- [ ] 23. Geolocation
+- [x] 23. Geolocation
 - [ ] 24. Horizontal Slider
 - [ ] 25. Hovers
 - [ ] 26. Infinite Scroll
