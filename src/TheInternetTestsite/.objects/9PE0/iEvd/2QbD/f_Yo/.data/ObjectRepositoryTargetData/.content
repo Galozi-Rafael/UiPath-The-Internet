@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="L_90YjHCukmyy-wS9B8e_w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="8819f2fe-de87-4844-b09a-6e60b870d249" CvElementArea="929, 176, 182, 41" CvType="InputBox" DesignTimeRectangle="932, 179, 176, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl name='Fazer login' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Nome de usuário' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="92bf9bc0-f3cc-4657-89d0-d02be28df3fa" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com/digest_auth - Google Chrome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8819f2fe-de87-4844-b09a-6e60b870d249" CvTextArea="827, 190, 93, 12" CvTextArgument="Nome de usuário" CvType="Text" DesignTimeRectangle="828, 187, 92, 20" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Fazer login' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Nome de usuário' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Nome de usuário' /&gt;" Guid="7aa678ab-b417-4303-b761-d26fe6bb893f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dd5039fedf69973b1a2e091f1ee03931.png" xmlns="">0EnDHdJaBsUSk0yc9UdVHSw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

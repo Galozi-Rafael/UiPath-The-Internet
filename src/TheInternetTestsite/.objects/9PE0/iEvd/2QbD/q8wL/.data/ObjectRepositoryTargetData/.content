@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rZgg7U5D20C3jj0L81MNTw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="20c965f3-5075-49f4-8067-f8b02268c71b" CvElementArea="903, 285, 102, 42" CvTextArea="921, 299, 66, 16" CvTextArgument="Fazer login" CvType="Button" DesignTimeRectangle="906, 287, 97, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Fazer login' role='dialog' /&gt;&lt;ctrl name='Fazer login' role='push button' /&gt;" Guid="e7dd581a-3adb-45b8-8ecd-6da10bf7145c" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com/digest_auth - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e8995b6959be43ea935089ef5bb91cbe.png" xmlns="">0hkB-FkAlXkOQIvXDN8-0AA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

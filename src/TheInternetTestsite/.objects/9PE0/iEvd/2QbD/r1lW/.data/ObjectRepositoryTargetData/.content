@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RX-HMGJh-0CK95Pu5riDZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="aab9fe82-7e6b-4688-9be4-459548d548e2" CvElementArea="929, 225, 182, 40" CvType="InputBox" DesignTimeRectangle="932, 227, 176, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl name='Fazer login' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Senha' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="42b0fb3e-9ca3-4a16-83e1-55eae8830e44" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com/digest_auth - Google Chrome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="aab9fe82-7e6b-4688-9be4-459548d548e2" CvTextArea="827, 238, 34, 12" CvTextArgument="Senha" CvType="Text" DesignTimeRectangle="828, 235, 33, 20" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Fazer login' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Senha' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Senha' /&gt;" Guid="b8e7e2e0-31b3-4b1b-9eef-f97f05edb585" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="593bd45507c2da63a0b4808773eb92c3.png" xmlns="">0OOq_crxr1UOMJxlXFqqlgQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

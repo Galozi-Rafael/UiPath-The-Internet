@@ -117,125 +117,95 @@
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
       <AssemblyReference>System.Linq.Parallel</AssemblyReference>
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="DigestAuth" sap:VirtualizedContainerService.HintSize="1281,2366" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="DigestAuth" sap:VirtualizedContainerService.HintSize="784,1872" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="password" />
+      <Variable x:TypeArguments="x:String" Name="digestAuthText" />
+    </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="558,2343" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="522,1849" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Chrome the-internet.herokuapp.comdigest_auth" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="524,2260" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="Simulate" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="e1b52877-8bd7-4a7c-b5a1-485d61774e0d" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Chrome the-internet.herokuapp.comdigest_auth(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1766" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" IsIncognito="True" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="293f185f-207b-4045-b37b-a8560778e865" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,2066" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1572" sap2010:WorkflowViewState.IdRef="Sequence_13">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="password" />
-                <Variable x:TypeArguments="x:String" Name="digestAuthText" />
               </Sequence.Variables>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NCheckState DisplayName="Check App State 'HTTP ERROR 400'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,2002" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="e1b52877-8bd7-4a7c-b5a1-485d61774e0d" Version="V5">
-                <uix:NCheckState.IfExists>
-                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="486,253" sap2010:WorkflowViewState.IdRef="Sequence_9">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Nome de usuário'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="HardwareEvents" ScopeIdentifier="293f185f-207b-4045-b37b-a8560778e865" Text="admin" Version="V5">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="8819f2fe-de87-4844-b09a-6e60b870d249" ContentHash="L_90YjHCukmyy-wS9B8e_w" CvElementArea="929, 176, 182, 41" CvType="InputBox" DesignTimeRectangle="932, 179, 176, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl name='Fazer login' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Nome de usuário' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="92bf9bc0-f3cc-4657-89d0-d02be28df3fa" InformativeScreenshot="dd5039fedf69973b1a2e091f1ee03931.png" IsResponsive="True" Reference="hgpIwYCmKUK6UuG-Vvg7vw/f_YojQx3PEWAhckLWXLGiQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com/digest_auth - Google Chrome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="8819f2fe-de87-4844-b09a-6e60b870d249" CvTextArea="827, 190, 93, 12" CvTextArgument="Nome de usuário" CvType="Text" DesignTimeRectangle="828, 187, 92, 20" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Fazer login' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Nome de usuário' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Nome de usuário' /&gt;" Guid="7aa678ab-b417-4303-b761-d26fe6bb893f" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <ui:GetPassword DisplayName="Private: Get Password" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="GetPassword_3" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA16hWRvM/G0WVFN+Y5in6PAAAAAACAAAAAAAQZgAAAAEAACAAAAASYicfXOY7Or4Em60YGrdG2u1JfZ2rAUHuVn2e0cUDGgAAAAAOgAAAAAIAACAAAABLDc0wi0N+OGINb/mALj/fzt/IsFNYKT95h6TQ6rGkGRAAAAD8V568iOnGwqNdgEmHLpmNQAAAAIZqDtrg6vTSFveRlcooQC9PbAU03C9R9s53tckKw9j4N51DsOP+F0f/vLtkR8cDLaO//9qLWuo8woMfkmHldLY=" Result="[password]" />
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Senha'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="HardwareEvents" ScopeIdentifier="293f185f-207b-4045-b37b-a8560778e865" Text="[password]" Version="V5">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="aab9fe82-7e6b-4688-9be4-459548d548e2" ContentHash="RX-HMGJh-0CK95Pu5riDZQ" CvElementArea="929, 225, 182, 40" CvType="InputBox" DesignTimeRectangle="932, 227, 176, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl name='Fazer login' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Senha' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="42b0fb3e-9ca3-4a16-83e1-55eae8830e44" InformativeScreenshot="593bd45507c2da63a0b4808773eb92c3.png" IsResponsive="True" Reference="hgpIwYCmKUK6UuG-Vvg7vw/r1lWi632-0OTANM7OmPyGw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com/digest_auth - Google Chrome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="aab9fe82-7e6b-4688-9be4-459548d548e2" CvTextArea="827, 238, 34, 12" CvTextArgument="Senha" CvType="Text" DesignTimeRectangle="828, 235, 33, 20" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Fazer login' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Senha' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Senha' /&gt;" Guid="b8e7e2e0-31b3-4b1b-9eef-f97f05edb585" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Fazer login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="293f185f-207b-4045-b37b-a8560778e865" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="20c965f3-5075-49f4-8067-f8b02268c71b" ContentHash="rZgg7U5D20C3jj0L81MNTw" CvElementArea="903, 285, 102, 42" CvTextArea="921, 299, 66, 16" CvTextArgument="Fazer login" CvType="Button" DesignTimeRectangle="906, 287, 97, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Fazer login' role='dialog' /&gt;&lt;ctrl name='Fazer login' role='push button' /&gt;" Guid="e7dd581a-3adb-45b8-8ecd-6da10bf7145c" InformativeScreenshot="e8995b6959be43ea935089ef5bb91cbe.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/q8wLmpaVM06VdRY-Vj2iDw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com/digest_auth - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NGetText DisplayName="Get Text 'Congratulations! You mu…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,147" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="293f185f-207b-4045-b37b-a8560778e865" TextString="[digestAuthText]" Version="V5">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="51b8d017-1069-4672-ad2b-f3b0b390df74" ContentHash="PP1HEQq60kSDavnrRtXkpQ" CvType="AnyWordGroup" DesignTimeRectangle="483, 270, 970, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" Guid="feffc7b2-22ad-4086-a825-503f464aec40" InformativeScreenshot="944297ce190a1a265338a227b3973623.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/PqXIKv28W0OnlUXCZD7f6Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <If Condition="[digestAuthText.Contains(&quot;Congratulations!&quot;)]" sap:VirtualizedContainerService.HintSize="452,602" sap2010:WorkflowViewState.IdRef="If_3">
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_14">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'CloseButton'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e1b52877-8bd7-4a7c-b5a1-485d61774e0d" Version="V5">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="f38c3874-4468-4d92-b7db-efa57fcb12a1" ContentHash="fdVXnZGcOEakrlB0vnazQQ" CvElementArea="1895, 18, 20, 20" CvType="CloseButton" DesignTimeRectangle="1895, 18, 20, 20" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="32f53c19-6970-40fc-80d8-7c9858a2bd2f" InformativeScreenshot="e85d209d34a26ceb6db209a6cb1a91b3.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/H-hWlmAABkuQvgEMFPIdIQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                              <uix:Target CVScreenId="f38c3874-4468-4d92-b7db-efa57fcb12a1" CvElementArea="1849, 17, 21, 21" CvType="MaximizeButton" DesignTimeRectangle="1849, 18, 20, 20" ElementType="Button" Guid="8917d248-5bce-4ff1-baeb-b9d5b4e524a6" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NClick.Target>
-                    </uix:NClick>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[digestAuthText]" />
                   </Sequence>
-                </uix:NCheckState.IfExists>
-                <uix:NCheckState.IfNotExists>
-                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="486,1464" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_15">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Nome de usuário'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="HardwareEvents" ScopeIdentifier="e1b52877-8bd7-4a7c-b5a1-485d61774e0d" Text="admin" Version="V5">
-                      <uix:NTypeInto.Target>
-                        <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="8e3492f5-6c98-406f-a4a1-e444b63c16ee" ContentHash="VSAfTwIxZU--wwTlb7u-cg" CvElementArea="929, 176, 182, 41" CvType="InputBox" DesignTimeRectangle="932, 179, 176, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl name='Fazer login' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Nome de usuário' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="60c4a566-0a04-41eb-924e-817b88a3718a" InformativeScreenshot="3aef385d8085260d84fc8f01bcee6957.png" IsResponsive="True" Reference="hgpIwYCmKUK6UuG-Vvg7vw/g3Boq9sVREmAIwyrhITdNg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com/digest_auth - Google Chrome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                              <uix:Target CVScreenId="8e3492f5-6c98-406f-a4a1-e444b63c16ee" CvTextArea="827, 190, 93, 12" CvTextArgument="Nome de usuário" CvType="Text" DesignTimeRectangle="828, 187, 92, 20" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Fazer login' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Nome de usuário' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Nome de usuário' /&gt;" Guid="c9ccfa8c-f049-481f-9f60-28f5ece7e6b1" SearchSteps="FuzzySelector, CV" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NTypeInto.Target>
-                    </uix:NTypeInto>
-                    <ui:GetPassword DisplayName="Private: Get Password" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="GetPassword_2" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA16hWRvM/G0WVFN+Y5in6PAAAAAACAAAAAAAQZgAAAAEAACAAAABIrXT+50VSK0nxCq/wEMBy7U0DKsQYRlGxlh7OeT2JhQAAAAAOgAAAAAIAACAAAADVkuflfhOpPhePZIFOpBEfh6FDLp2S3ZD4WeIfTy7DBxAAAADMVibMfpDn5RAPnQ2dT1pwQAAAAD/XLIEh8H3VxpMPCDheyVBZNUcnWLQVCTm2jNwBRH/2lb3NjcQf7QTwe3ue75tktqqWMwf43O49+PFcIXReYuY=" Result="[password]" />
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Senha'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="HardwareEvents" ScopeIdentifier="e1b52877-8bd7-4a7c-b5a1-485d61774e0d" Text="[password]" Version="V5">
-                      <uix:NTypeInto.Target>
-                        <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="8e3492f5-6c98-406f-a4a1-e444b63c16ee" ContentHash="lHQzh7FLkkCX7ilATOHJJA" CvElementArea="929, 225, 182, 40" CvType="InputBox" DesignTimeRectangle="932, 227, 176, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;ctrl name='Fazer login' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Senha' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="4a7f63a1-1fcc-46c3-90d6-a87d00b20d9d" InformativeScreenshot="8b1ed6b59fc180a941a35514c634812a.png" IsResponsive="True" Reference="hgpIwYCmKUK6UuG-Vvg7vw/tYLDg3NxHke4Be2QwDSAzA" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com/digest_auth - Google Chrome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                              <uix:Target CVScreenId="8e3492f5-6c98-406f-a4a1-e444b63c16ee" CvTextArea="827, 238, 34, 12" CvTextArgument="Senha" CvType="Text" DesignTimeRectangle="828, 235, 33, 20" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Fazer login' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Senha' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Senha' /&gt;" Guid="560cefd2-e223-4d11-abc8-b58901ef5548" SearchSteps="FuzzySelector, CV" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NTypeInto.Target>
-                    </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Fazer login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e1b52877-8bd7-4a7c-b5a1-485d61774e0d" Version="V5">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="8e3492f5-6c98-406f-a4a1-e444b63c16ee" ContentHash="LwtV0kj3ZEy-b-B-9B93cA" CvElementArea="904, 286, 102, 41" CvTextArea="921, 299, 66, 16" CvTextArgument="Fazer login" CvType="Button" DesignTimeRectangle="906, 287, 97, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Fazer login' role='dialog' /&gt;&lt;ctrl name='Fazer login' role='push button' /&gt;" Guid="7ae1a8ea-1cee-4336-95ee-d61848024b19" InformativeScreenshot="c6ec48640a2b5c3695fd6b34ba4e60f5.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/MzYw9Ab0DUG8n4NWsuCIxg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com/digest_auth - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-                      </uix:NClick.Target>
-                    </uix:NClick>
-                    <uix:NGetText DisplayName="Get Text 'Congratulations! You mu…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,147" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="e1b52877-8bd7-4a7c-b5a1-485d61774e0d" TextString="[digestAuthText]" Version="V5">
-                      <uix:NGetText.Target>
-                        <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="8f6afb81-079d-4410-bb57-4bad93280d2e" ContentHash="IoOrTYlOBkenALTdHYNkSg" CvType="AnyWordGroup" DesignTimeRectangle="483, 270, 970, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" Guid="6cc92f9e-5147-4402-8c01-2af23702ccb1" InformativeScreenshot="155be82779ca479ec5005f3c1e83f46f.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/bzJBCQHymEi_kf9srQkIew" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-                      </uix:NGetText.Target>
-                    </uix:NGetText>
-                    <If Condition="[digestAuthText.Contains(&quot;Congratulaions&quot;)]" sap:VirtualizedContainerService.HintSize="452,498" sap2010:WorkflowViewState.IdRef="If_2">
-                      <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,182" sap2010:WorkflowViewState.IdRef="Sequence_11">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,118" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="[digestAuthText]" />
-                        </Sequence>
-                      </If.Then>
-                      <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,182" sap2010:WorkflowViewState.IdRef="Sequence_12">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,118" sap2010:WorkflowViewState.IdRef="WriteLine_5" Text="Não foi possível fazer login." />
-                        </Sequence>
-                      </If.Else>
-                    </If>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Login não deu certo.&quot;]" />
                   </Sequence>
-                </uix:NCheckState.IfNotExists>
-                <uix:NCheckState.Target>
-                  <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="f38c3874-4468-4d92-b7db-efa57fcb12a1" ContentHash="w4qm3gPCWkqsjtNNXqta1g" CvTextArea="667, 507, 92, 12" CvTextArgument="HTTP ERROR 400" CvType="Text" DesignTimeRectangle="667, 507, 92, 12" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="0251cdf0-692e-4365-afb8-3804967f6949" InformativeScreenshot="48808e7447dce87b37f29cca5f31ef20.png" Reference="hgpIwYCmKUK6UuG-Vvg7vw/RskZo0xRDkSSoKno-mC5YA" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
-                </uix:NCheckState.Target>
-              </uix:NCheckState>
+                </If.Else>
+              </If>
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
@@ -247,7 +217,7 @@
           </ActivityFunc>
         </uix:NApplicationCard.OCREngine>
         <uix:NApplicationCard.TargetApp>
-          <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="hDpLzncSNE-nPulZQQlhTA" IconBase64="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" InformativeScreenshot="b584178992e1ce9b1914b244b8043219.jpg" Reference="hgpIwYCmKUK6UuG-Vvg7vw/N_ktfMJx0U2X6a4Gg0_15w" Selector="&lt;html app='chrome.exe' title='the-internet.herokuapp.com/digest_auth' /&gt;" Url="https://the-internet.herokuapp.com/digest_auth" Version="V2">
+          <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="kTCgRGhOdkKXpCvi59e1MA" IconBase64="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" InformativeScreenshot="b584178992e1ce9b1914b244b8043219.jpg" Reference="hgpIwYCmKUK6UuG-Vvg7vw/2QbD_7LEFUS6i4hfy8ykFQ" Selector="&lt;html app='chrome.exe' title='the-internet.herokuapp.com/digest_auth' /&gt;" Url="https://the-internet.herokuapp.com/digest_auth" Version="V2">
             <uix:TargetApp.Arguments>
               <InArgument x:TypeArguments="x:String" />
             </uix:TargetApp.Arguments>
@@ -256,12 +226,6 @@
             </uix:TargetApp.WorkingDirectory>
           </uix:TargetApp>
         </uix:NApplicationCard.TargetApp>
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            <x:Boolean x:Key="IsPinned">False</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
       </uix:NApplicationCard>
     </Sequence>
   </Sequence>

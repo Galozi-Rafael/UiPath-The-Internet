@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="w4qm3gPCWkqsjtNNXqta1g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="ffIjUOw5PE6yWksBezriKA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/digest_auth" CVScreenId="f38c3874-4468-4d92-b7db-efa57fcb12a1" CvTextArea="667, 507, 92, 12" CvTextArgument="HTTP ERROR 400" CvType="Text" DesignTimeRectangle="667, 507, 92, 12" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="0251cdf0-692e-4365-afb8-3804967f6949" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="48808e7447dce87b37f29cca5f31ef20.png" xmlns="">039VudTIkVUWs37Odn6JKjg</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="801, 86, 334, 268" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Fazer login' role='dialog' /&gt;&lt;ctrl idx='2' role='pane' /&gt;" Guid="24230a37-e177-4455-9b90-457712877ffe" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com/digest_auth - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4e133c34cc8b54f7a44b87d3b46cab3b.png" xmlns="">0KMUWqW5V3EGmWSt2897UhQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>
