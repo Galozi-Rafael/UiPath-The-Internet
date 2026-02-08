@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GvWPjzvLk06sqipspnIIng" Reference="hgpIwYCmKUK6UuG-Vvg7vw/dYQ8xeOGPEy6e97axsUoow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/shifting_content/menu" CVScreenId="8ea77c59-a750-4053-8c46-c8170556861f" CvElementArea="875, 420, 101, 53" CvTextArea="896, 438, 59, 20" CvTextArgument="Gallery" CvType="Button" DesignTimeRectangle="876, 421, 99, 52" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='shift' parentid='content' tag='A' href='/gallery/' innertext='Gallery' /&gt;" Guid="6725eec2-c5e5-4dbc-bb78-eded78274099" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="023061cba6c4f68b807fd180e66a24f9.png" xmlns="">08hotE0qxjUuxeI-e686EKQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
