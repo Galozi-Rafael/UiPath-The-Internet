@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_25IVM1hQkGcot0nR6m9BA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/shadowdom" CVScreenId="71e987b7-39df-46b9-a8f9-0470fc94c71c" CvType="AnyWordGroup" DesignTimeRectangle="488, 326, 960, 26" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LI' visibleinnertext='In a list!' /&gt;" Guid="adc6f392-6dc3-448e-aa63-17e6b37c58e0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="9b6f8dbb41a48b0aa84482df6a6a6898.png" xmlns="">0vQR93IdisUyDWjBPxyzAYQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

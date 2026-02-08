@@ -1,0 +1,13 @@
+﻿{
+  "Name": "In a list!",
+  "Type": "Element",
+  "Id": "q6Brvl3-sUeXqQCzbic5eg",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/q6Brvl3-sUeXqQCzbic5eg",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/_MkTsc4hkkGoYfziFRp2yQ",
+  "Created": "2026-02-08T00:23:01.9307076Z",
+  "Updated": "2026-02-08T00:23:01.9307076Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
