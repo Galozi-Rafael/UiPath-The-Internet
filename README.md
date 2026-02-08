@@ -68,6 +68,6 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [ ] 40. Slow Resources
 - [ ] 41. Sortable Data Tables
 - [x] 42. Status Codes
-- [ ] 43. Typos
+- [x] 43. Typos
 - [x] 44. WYSIWYG Editor - Em Frames
 
