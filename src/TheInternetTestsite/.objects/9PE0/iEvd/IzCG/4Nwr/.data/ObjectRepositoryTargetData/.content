@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="L0mVthtveU28wdvrkzjXnw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/slow" DesignTimeRectangle="1329, 298, 573, 30" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='DevTools' role='document' /&gt;&lt;ctrl name='Console panel' role='property page' /&gt;&lt;ctrl name='console' role='grouping' /&gt;&lt;ctrl name='Failed to load resource: the server responded with a status of 5*' role='grouping' text='Failed to load resource: the server responded with a status of 503 (Service Unavailable)' /&gt;&lt;ctrl name='slow_external:1 Failed to load resource: the server responded wi*' role='grouping' /&gt;&lt;ctrl role='grouping' text='  Failed to load resource: the server responded with a status of 503 (Service Unavailable)' /&gt;" Guid="cf4edb0d-4782-4084-904c-2fcccb6202e3" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='The Internet - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="3adb8848e363d72c5e006fef6b237b5c.png" xmlns="">0D77iCeptmUSprq1rTxgJuw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
