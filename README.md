@@ -63,7 +63,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] 35. Notification Messages
 - [x] 36. Redirect Link
 - [ ] 37. Secure File Download
-- [ ] 38. Shadow DOM
+- [x] 38. Shadow DOM
 - [ ] 39. Shifting Content
 - [ ] 40. Slow Resources
 - [ ] 41. Sortable Data Tables
