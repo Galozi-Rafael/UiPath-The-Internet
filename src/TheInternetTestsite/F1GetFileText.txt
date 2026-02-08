@@ -1,1 +1,0 @@
-someText inside file

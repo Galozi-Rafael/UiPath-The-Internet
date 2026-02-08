@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a6cq2U2LYkuXm1ZpRpuq1w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="the-internet.herokuapp.com/download_secure" CVScreenId="779d2086-98c3-4836-af12-a12bc3a8d7c0" CvElementArea="904, 286, 101, 41" CvTextArea="921, 299, 66, 16" CvTextArgument="Fazer login" CvType="Button" DesignTimeRectangle="906, 287, 97, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Fazer login' role='dialog' /&gt;&lt;ctrl name='Fazer login' role='push button' /&gt;" Guid="d04e4e5b-ea6a-4b6a-a7f8-d7934d359d33" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='the-internet.herokuapp.com/download_secure - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c6ec48640a2b5c3695fd6b34ba4e60f5.png" xmlns="">0E5tl3RxyMkWde7bs9f9VpQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

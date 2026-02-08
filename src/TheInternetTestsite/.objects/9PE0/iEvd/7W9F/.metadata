@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome the-internet.herokuapp.comdownload_sec",
+  "Type": "Screen",
+  "Id": "7W9FoEeY20acdU-2ERVwyw",
+  "Reference": "hgpIwYCmKUK6UuG-Vvg7vw/7W9FoEeY20acdU-2ERVwyw",
+  "ParentRef": "hgpIwYCmKUK6UuG-Vvg7vw/iEvd2cfrbUirbedS07_TJA",
+  "Created": "2026-02-08T00:34:43.1732293Z",
+  "Updated": "2026-02-08T00:34:43.1732293Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
