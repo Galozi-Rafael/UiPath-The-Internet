@@ -64,7 +64,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] 36. Redirect Link
 - [x] 37. Secure File Download
 - [x] 38. Shadow DOM
-- [ ] 39. Shifting Content
+- [x] 39. Shifting Content
 - [x] 40. Slow Resources
 - [ ] 41. Sortable Data Tables
 - [x] 42. Status Codes
