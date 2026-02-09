@@ -66,7 +66,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] 38. Shadow DOM
 - [x] 39. Shifting Content
 - [x] 40. Slow Resources
-- [ ] 41. Sortable Data Tables
+- [x] 41. Sortable Data Tables
 - [x] 42. Status Codes
 - [x] 43. Typos
 - [x] 44. WYSIWYG Editor - Em Frames
